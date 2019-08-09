@@ -1,0 +1,160 @@
+b.p {display: block;height: 1px;width: 1px;margin: 0px;padding: 0px;}
+.sitilinck_page #header {height: 100vh;	 background-image: url(../../images/photos/case_citilink/photomain_case_citilink-min.png);background-size: cover;background-position: center;background-repeat: no-repeat;}
+.sitilinck_page .shadow_block {height: 82px;-webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.25);}
+.sitilinck_page .target {padding-top: 128px;padding-bottom: 203px;}
+.sitilinck_page .target span.db { font-size: 30px; line-height: 36px;}
+.sitilinck_page .target p {font-family: 'MuseoSansCyrl', sans-serif; font-size: 30px; line-height: 36px;}
+.sitilinck_page .banner {height: 1445px;background-position: center center; background-repeat: no-repeat;background-size: cover;}
+.sitilinck_page .banner:before {content: "";height: 2px;width: 100%;background-color: #777777;display: block;}
+.sitilinck_page .banner:after {content: "";height: 1px;width: 100%;background-color: #2F2E31;display: block;}
+
+.Dance_page{background-color: #000;}
+.Dance_page #header .top_block{padding-bottom: 0px;}
+.Dance_page .logo_block{margin: 0 auto!important; margin-top: -10px; background-color: #000; background-image: url(../../images/dance/1.png);background-size: contain;}
+.Dance_page .logo_block  span.logo {margin-bottom: 110px; margin-top: 800px;font-size: 110px;color: #fff;line-height: 113px;}
+.Dance_page .project .inner{padding-top: 52px; background-color: #fff;}
+.Dance_page .project span.upp {padding-left: 100px;font-size: 24px; line-height: 24px;    font-family: 'MuseoSansCyrl', sans-serif;}
+.Dance_page .project p {padding: 0px 270px; margin-top: 168px; margin-bottom: 215px;font-size: 28px; line-height: 31px;}
+.Dance_page .project .color_block {padding-top: 100px; padding-left: 98px; padding-right: 98px; box-sizing: border-box;padding-bottom: 435px;background-image: url(../../images/dance/color_block_bac.png);}
+.Dance_page .project .color_block .row {margin-right: -30px;}
+.Dance_page .project .color_block .row .item {padding-right: 30px;}
+.Dance_page .project .color_block .row .item .color {margin: 0 auto; -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);height: 165px;width: 165px;border-radius: 82.5px;}
+.Dance_page .project .color_block .row .item span.db {text-align: center; color: #333333;font-family: 'MuseoSansCyrl', sans-serif; font-size: 18px; line-height: 24px;margin-top: 30px;}
+.Dance_page .project .color_block:before {content: "";height: 518px;width: 869px;background-repeat: no-repeat;background-position: center;background-image: url(../../images/dance/color_block_before.png); display: block;margin: 0 auto;margin-bottom: 96px;}
+.Dance_page .TYPOGRAPHY_block .inner {padding-bottom: 100px; margin-bottom: 100px; margin-top: -2px;}
+.Dance_page .TYPOGRAPHY_block span.headline {padding-left: 98px; padding-bottom: 63px; font-size: 24px; line-height: 24px;font-family: 'MuseoSansCyrl', sans-serif;color: #000;}
+.Dance_page .TYPOGRAPHY_block span.headline:after{content: "";display: block;position: absolute;;left: 0;bottom: 0;height: 2px;width: 100%;background-color: #B1AFAF;}
+.Dance_page .TYPOGRAPHY_block .item	{padding-top: 30px;}
+.Dance_page .TYPOGRAPHY_block .item img {margin: 0 auto;}
+.Dance_page .TYPOGRAPHY_block .item .text_block {padding: 22px 0px; margin-top: 68px;}
+.Dance_page .TYPOGRAPHY_block .item .text_block span.db {font-size: 18px; line-height: 24px; color: #666;font-family: 'MuseoSansCyrl', sans-serif;}
+.Dance_page .TYPOGRAPHY_block .item:nth-child(3) .text_block {margin-top: 66px;}
+.Dance_page .TYPOGRAPHY_block .item .text_block:after{content: "";display: block;position: absolute;;left: 0;bottom: 0;height: 2px;width: 100%;background-color: #B1AFAF;}
+.Dance_page .TYPOGRAPHY_block .item .text_block:before{content: "";display: block;position: absolute;;left: 0;top: 0;height: 2px;width: 100%;background-color: #B1AFAF;}
+.Dance_page .project .color_block .row .item:nth-child(1) .color {background-color: #B18895;}
+.Dance_page .project .color_block .row .item:nth-child(2) .color {background-color: #462F37;}
+.Dance_page .project .color_block .row .item:nth-child(3) .color {background-color: #6EA6B8;}
+.Dance_page .project .color_block .row .item:nth-child(4) .color {background-color: #fff;}
+.Dance_page .project .color_block .row .item:nth-child(5) .color {background-color: #000;}
+
+.Gms_page .inner2 {max-width: 950px; width: 96%;margin: 0 auto;position: relative;}
+.Gms_page {background-color: #000;}
+.Gms_page #header{margin-bottom: 86px; background-image: url(../../images/photos/case_gms/desck1920.png); background-repeat: no-repeat;background-position: center;background-size: cover;}
+.Gms_page #header span.ah2 {font-size: 115px; line-height: 118px;color:#fff;padding-top: 400px;padding-bottom: 480px;text-shadow: 2px 2px 21px rgba(0, 0, 0, 0.75);}
+.Gms_page .text_block {margin-top: 83px;margin-bottom: 111px;}
+.Gms_page .text_block span.db {font-size: 28px; line-height: 36px;color: #fff;margin-bottom: 40px;}
+.Gms_page .text_block p {font-size: 24px; line-height: 36px;color: #999999;font-family: 'MuseoSansCyrl', sans-serif;padding-left: 98px;}
+.Gms_page .video_block {margin-top: 124px;margin-bottom: 124px;}
+.Gms_page .video_block .vid {height: 645px;}
+.Gms_page .video_block .vid iframe {height: 100%;width: 100%;border:0px;}
+
+.cinema_page #header {height: 100vh; background: transparent;background-repeat: no-repeat;background-position: center; background-image: url(../../images/mycinema/header_bac.png);background-size: cover;}
+.cinema_page #header span.ah2 {font-size: 156px; line-height: 159px;color:#fff;padding-top: 290px;padding-bottom: 515px;text-shadow: 0px 0px 23px rgba(0, 0, 0, 0.75);}
+.cinema_page .tickets {padding-top: 36px;padding-bottom: 940px; background-image: url(../../images/mycinema/tik.png);background-repeat: no-repeat;background-position: center;background-size: cover;}
+.cinema_page .tickets .fleft { margin-top: -22px; margin-right: 29px; width: 70px;height: 70px;background-size: cover;background-position: center;background-repeat: no-repeat;}
+.cinema_page .tickets .rL.hid span.db {margin-bottom: 7px; font-size: 36px; line-height: 39px;color: #660066;}
+.cinema_page .tickets .rL.hid  p {font-size: 16px; line-height: 20px;}
+.cinema_page .tickets .rL.hid {margin-top: 22px;}
+.cinema_page .info_block {padding-top: 540px;padding-bottom: 300px; background-image: url(../../images/mycinema/info.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.cinema_page .info_block:before {content: "";width: 632px;height: 824px;background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url(../../images/mycinema/fon.png);display: block;position: absolute;left: 0px;top: 0px;margin-top: 180px;margin-left: 100px;}
+.cinema_page .info_block .fright {width: 460px;}
+.cinema_page .info_block .fright .block span.db {position: relative; max-width: 340px; font-size: 30px; line-height: 36px; color: #fff;margin-bottom: 35px;}
+.cinema_page .info_block .fright .block span.db:after{content: "";display: block;width: 100%;height: 1px;background-color: #fff;opacity: 0.75;position: absolute;bottom:-9px;left: 0px;}
+.cinema_page .info_block .fright .block p {font-family: 'MuseoSansCyrl', sans-serif;opacity: 0.75; font-size: 18px;line-height: 24px; color: #fff;}
+.cinema_page .info_block .fright .block:nth-child(2) span.db {font-size: 18px;max-width: 220px;}
+.cinema_page .info_block .fright .block:nth-child(2) {margin-top: 135px;}
+.cinema_page .merits .block {margin-bottom: 80px;}
+.cinema_page .merits .block .fright {width: 490px;}
+.cinema_page .merits .block .fright .right {margin-top: -45px; font-size: 290px;line-height: 293px;color: #FFCCFF;float: right;margin-left: 34px;}
+.cinema_page .merits .block .fright .rL.hid {text-align: right; margin-top: 50px;font-size: 18px; line-height: 24px;font-family: 'MuseoSansCyrl', sans-serif;}
+.cinema_page .merits .block:nth-child(1):before {content: "";width: 473px;height: 92px;background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url(../../images/mycinema/meris_before1.1.png);display: block;position: absolute;left: 0px;top: 0px;}
+.cinema_page .merits .block:nth-child(1):after {content: "";width: 473px;height: 92px;background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url(../../images/mycinema/meris_before1.2.png);display: block;position: absolute;left: 0px;top: 0px;margin-top:120px;margin-left: 98px;}
+.cinema_page .merits .block:nth-child(2):before {content: "";width: 354px;height: 475px;background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url(../../images/mycinema/meris_before2.png);display: block;position: absolute;left: 0px;top: 0px;margin-left: 196px;margin-top: -45px;}
+.cinema_page .merits .block:nth-child(2) .fright {width: 520px;}
+.cinema_page .merits .block:nth-child(3):before {content: "";width: 314px;height: 59px;background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url(../../images/mycinema/meris_before3.png);display: block;position: absolute;right: 0px;bottom: 52px;margin-right: 164px;}
+.cinema_page .catalog .block span.db {color: #fff;}
+.cinema_page .catalog .block p{font-family: 'MuseoSansCyrl', sans-serif;font-size: 16px; line-height: 24px;color: #999;margin-bottom: 75px;}
+.cinema_page .catalog .block:nth-child(1) {padding-top: 115px;}
+.cinema_page .catalog .block:nth-child(1) .item {width: 784px;height: 816px;background-image: url(../../images/mycinema/catalog_item1.png);background-size: cover;background-repeat: no-repeat;background-position: center;margin: 0 auto;}
+.cinema_page .catalog:before{content: "";width: 100%;height: 65px;display: block;background-image: url(../../images/mycinema/catalog_before.png);background-size: cover;background-position: center;position: absolute;left: 0px; top: -59px;}
+.cinema_page .catalog .block:nth-child(2) .item {width: 784px;height: 812px;background-image: url(../../images/mycinema/catalog_item2.png);background-size: cover;background-repeat: no-repeat;background-position: center;margin: 0 auto;}
+.cinema_page .catalog .block:nth-child(2) {text-align: right;}
+.cinema_page .catalog .block:nth-child(3) .item { width: 832px;height: 740px;background-image: url(../../images/mycinema/catalog_item3.png);background-size: cover;background-repeat: no-repeat;background-position: center;margin: 0 auto;}
+.cinema_page .catalog .block:nth-child(3) span.db {color: #343434; font-size: 88px; line-height:100px;}
+.cinema_page .catalog .block:nth-child(3) p {font-size: 30px; line-height: 40px; color: #fff;margin-bottom: 206px;margin-left: 6px;}
+.cinema_page .catalog .block:nth-child(3) {margin-top: 150px;}
+.cinema_page .catalog .block:nth-child(4) span.db {margin-top: -62px; color: #343434; font-size: 88px; line-height:100px;}
+.cinema_page .catalog .block:nth-child(4) p {color: #fff;margin-bottom: 206px;font-size: 30px; line-height: 40px;}
+.cinema_page .catalog .block:nth-child(4) .item { width: 804px;height: 826px;background-image: url(../../images/mycinema/catalog_item4.png);background-size: cover;background-repeat: no-repeat;background-position: center;margin: 0 auto;}
+.cinema_page .catalog .block:nth-child(5) .item { width: 654px;height: 852px;background-image: url(../../images/mycinema/catalog_item5.png);background-size: cover;background-repeat: no-repeat;background-position: center;margin: 0 auto;}
+.cinema_page .catalog .block:nth-child(5) span.db {color: #343434; font-size: 88px; line-height:100px;}
+.cinema_page .catalog .block:nth-child(5) p {color: #fff;margin-bottom: 54px;margin-left: 6px;font-size: 30px; line-height: 40px;}
+.cinema_page .catalog {margin-bottom: 90px;}
+.cinema_page .catalog:after {content: "";display: block;width: 100%;height: 90px;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url(../../images/mycinema/catalog_after.png);position: absolute;bottom: -89px; left: 0px;}
+.cinema_page .palette span.db {font-size: 188px;line-height: 191px;color: #ececec;margin-bottom: 25px;}
+.cinema_page .palette .block {padding: 0px 95px;}
+.cinema_page .palette .block .color {height: 20px;width: 100%;}
+.cinema_page .palette .block p {margin-top: 8px;font-family: 'MuseoSansCyrl', sans-serif;}
+.cinema_page .palette .block p:nth-child(2) {width: 49%;margin-bottom: 30px;}
+.cinema_page .palette .block p:nth-child(3) {width: 50%;text-align: right;margin-bottom: 30px;}
+.cinema_page .palette .block:nth-child(2) p:nth-child(2) {color: #666;}
+.cinema_page .palette .block:nth-child(2) p:nth-child(3) {color: #000;}
+.cinema_page .palette .block:nth-child(2) .color{background: rgba(102,102,102,1);
+background: -moz-linear-gradient(left, rgba(102,102,102,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(102,102,102,1)), color-stop(100%, rgba(0,0,0,1)));
+background: -webkit-linear-gradient(left, rgba(102,102,102,1) 0%, rgba(0,0,0,1) 100%);
+background: -o-linear-gradient(left, rgba(102,102,102,1) 0%, rgba(0,0,0,1) 100%);
+background: -ms-linear-gradient(left, rgba(102,102,102,1) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(to right, rgba(102,102,102,1) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000', GradientType=1 );}
+.cinema_page .palette .block:nth-child(3) .color {background: rgba(204,204,204,1);
+background: -moz-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(153,153,153,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(204,204,204,1)), color-stop(100%, rgba(153,153,153,1)));
+background: -webkit-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(153,153,153,1) 100%);
+background: -o-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(153,153,153,1) 100%);
+background: -ms-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(153,153,153,1) 100%);
+background: linear-gradient(to right, rgba(204,204,204,1) 0%, rgba(153,153,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#999999', GradientType=1 );}
+.cinema_page .palette .block:nth-child(3) p:nth-child(2) {color: #ccc;}
+.cinema_page .palette .block:nth-child(3) p:nth-child(3) {color: #999;}
+.cinema_page .palette .block:nth-child(4) .color {
+background: rgba(153,51,153,1);
+background: -moz-linear-gradient(left, rgba(153,51,153,1) 0%, rgba(102,0,102,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(153,51,153,1)), color-stop(100%, rgba(102,0,102,1)));
+background: -webkit-linear-gradient(left, rgba(153,51,153,1) 0%, rgba(102,0,102,1) 100%);
+background: -o-linear-gradient(left, rgba(153,51,153,1) 0%, rgba(102,0,102,1) 100%);
+background: -ms-linear-gradient(left, rgba(153,51,153,1) 0%, rgba(102,0,102,1) 100%);
+background: linear-gradient(to right, rgba(153,51,153,1) 0%, rgba(102,0,102,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#993399', endColorstr='#660066', GradientType=1 ); 
+}
+.cinema_page .palette .block:nth-child(4) p:nth-child(2) {color: #993399;}
+.cinema_page .palette .block:nth-child(4) p:nth-child(3) {color: #660066;}
+.cinema_page .palette .TYPOGRAPHY_block .item	{padding-top: 30px;}
+.cinema_page .palette .TYPOGRAPHY_block .item img {margin: 0 auto;}
+.cinema_page .palette .TYPOGRAPHY_block .item .text_block {padding: 22px 0px; margin-top: 68px;}
+.cinema_page .palette .TYPOGRAPHY_block .item .text_block span.db {margin-bottom: 0px; font-size: 18px; line-height: 24px; color: #666;font-family: 'MuseoSansCyrl', sans-serif;}
+.cinema_page .palette .TYPOGRAPHY_block .item:nth-child(1) .text_block {margin-top: 58px;}
+.cinema_page .palette .TYPOGRAPHY_block .item .text_block:after{content: "";display: block;position: absolute;;left: 0;bottom: 0;height: 2px;width: 100%;background-color: #B1AFAF;}
+.cinema_page .palette .TYPOGRAPHY_block .item .text_block:before{content: "";display: block;position: absolute;;left: 0;top: 0;height: 2px;width: 100%;background-color: #B1AFAF;}
+.cinema_page .palette span.rL:before{content: "";display: block;position: absolute;;left: 0;bottom: 0;height: 2px;width: 100%;background-color: #B1AFAF;}
+.cinema_page .palette span.rL {padding-bottom: 35px;margin-top: 20px;}
+.cinema_page .conclusion span.db:nth-child(1) {font-size: 48px; line-height: 48px;color: #fff;font-family: 'MuseoSansCyrl', sans-serif;}
+.cinema_page .conclusion span.db:nth-child(2) {font-size: 60px; line-height: 60px;color: #fff;font-family: 'MuseoSansCyrl', sans-serif;}
+.cinema_page .conclusion span.db:nth-child(3) {font-size: 60px; line-height: 60px;color: #fff;}
+.cinema_page .conclusion {padding-top: 190px;padding-bottom: 60px; background-image: url(../../images/mycinema/conclusion.png);}
+.cinema_page .conclusion div.fon {width: 650px;height: 443px;background-size: cover;background-repeat: no-repeat;background-position: center;background-image: url(../../images/mycinema/telefon.png);margin: 0 auto;margin-top: 78px;margin-bottom: 112px;}
+.cinema_page .senck {width: 310px; margin: 0 auto;}
+.cinema_page .senck .fleft { margin-top: -22px; margin-right: 29px; width: 70px;height: 70px;background-size: cover;background-position: center;background-repeat: no-repeat;}
+.cinema_page .senck .rL.hid span.db {margin-bottom: 7px; font-size: 36px; line-height: 39px;color: #660066;}
+.cinema_page .senck .rL.hid  p {font-size: 18px; line-height: 21px;color: #999;}
+.cinema_page .senck .rL.hid {margin-top: 22px;}
+
+
+
+
+
+

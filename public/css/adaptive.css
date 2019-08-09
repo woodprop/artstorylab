@@ -1,0 +1,997 @@
+@media (max-width:1500px){
+.sailing_block .block_5 .reply .image{padding-bottom:150px;max-width:700px;margin:0 auto;margin-top:120px;}
+.sailing_block .block_5 .reply .image:after{width:550px;height:375px;right:-150px;}
+}
+@media (max-width:1200px){
+header h1{font-size:138px;line-height: 95px;}
+
+.mycinema .left_side{padding-right:50px;}
+.mycinema .left_side img {width:530px;}
+
+.sailing .inner > .fright{margin-left:-150px;}
+
+.prototype .image > .tb{left:auto;}
+.prototype .image .image_1{max-width:600px;height:auto;}
+.prototype .image .image_2{max-width:600px;height:auto;left:auto;margin-left:0px;right:0px;top:300px;}
+.prototype .image .image_3{margin-top:150px;}
+    
+    /*about me page*/
+    .about_me__page .book {
+        padding-bottom: 86px;
+    }
+
+    .about_me__page .book .description {
+        padding: 63px 98px 0px 125px;
+    }
+
+    /*slider*/
+    .all {
+        margin-top: 75px;
+    }
+
+    .first label {
+        display: inline-block;
+        width: 173px;
+        height: 188px;
+        margin-top: 20px;
+    }
+
+    .first label img {
+        width: 173px;
+        height: 188px;
+    }
+
+
+    #slides article {
+        /*все изображения справа друг от доруга*/
+        width: 75%;
+    }
+
+    #desktop:checked ~ #slider {
+        /*размер всего слайдера*/
+        max-width: 100%;
+        /*максимальнная длинна*/
+    }
+
+    /*настройка переключения и положения для левой стрелки*/
+    /*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+    #switch1:checked ~ #controls label:nth-child(1),
+    #switch2:checked ~ #controls label:nth-child(1) {
+        display: none;
+    }
+    
+
+    /*настройка переключения и положения для правой стрелки*/
+    #switch1:checked ~ #controls label:nth-child(2),
+    #switch2:checked ~ #controls label:nth-child(2) {
+        display: none;
+    }
+
+    #active {
+        /*расположение блока с переключателями*/
+        margin: 44px 0 0 0;
+        height: 35px;
+    }
+
+    /*slider end*/
+    .instruments {
+    height: 650px;
+}
+    
+   .instruments .bg-inst {
+    height: 550px;
+    }
+    
+    .instruments .bg-inst .flextools {
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+        .licences {
+    padding-top: 30px;
+    }
+    
+    .licences .contLicen {
+    width: 100%;
+    }
+    
+    .licences .contLicen .portal {
+        display: flex;
+        justify-content: center;
+    }
+    /*end about me page max-width 1200*/
+
+/*sailing startup*/
+.sailing_block .block_2 .screen1 .content img{max-width:500px;width:100%;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage1 .image > div.rL .abs .des_txt{margin-top:5px;font-size:17px;line-height:20px;}
+}
+@media (max-height:860px){
+.sailing_banner .logo img{max-width:700px;margin-left:-200px;}
+header h1{margin-top:160px;}
+}
+@media (min-width:1000px) and (max-height:890px){
+.dance .image{margin-top:30px;}
+.dance .image img{max-height: 530px;}
+.dance h2{margin-top:-58px;}
+.dance .txt{margin-top:10px;}
+
+.specialis .inner > div.rL{margin-top:5px;}
+.specialis .inner > div.rL .row{padding: 20px 0 19px;}
+.specialis .inner > div.rL .row .abs{font-size:68px;line-height: 117px;}
+.specialis .inner > div.rL .row .plus{left:56px;}
+}
+@media (min-width:1000px) and (max-height:800px){
+.sailing .fright img{max-width: 660px;}
+}
+@media (max-height:760px){
+.sailing_banner .logo img{max-width:550px;margin-left:-165px;}
+header h1{margin-top:80px;}
+#fullpage header h1{margin-top: 0;}
+}
+@media (min-width:1000px) and (max-height:740px){
+#fullpage header{background-position: center bottom 85px;}
+}
+@media (min-width:1000px) and (max-height:700px){
+#fullpage header{background-position: center bottom 65px;}
+}
+@media (min-width:1000px) and (max-height:670px){
+.dance .image img{max-height: 450px;}
+}
+@media (min-width:1000px) and (max-height:640px){
+.sailing_banner .logo img{max-width:480px;margin-left:-145px;}
+#fullpage header{background-position: center bottom 45px;}
+}
+@media (max-height:580px){
+.sailing_banner .logo img{max-width:410px;margin-left:-130px;}
+}
+@media(max-width:1000px){
+.section{height:auto !important;}
+.section > div{height:auto !important;}
+
+header{padding-bottom:95px;}
+header .top_block{top:0px;}
+header .about_me{bottom:20px;}
+header .about_me i{display:none;}
+header .about_me span + i{display:block;}
+header h1{font-size:104px;line-height:70px;margin-top:220px;}
+
+.mycinema{padding: 76px 0 45px;}
+.mycinema .inner{display:block;}
+.mycinema .left_side{padding-right:0px;display:block;}
+.mycinema .left_side img{left:-50px;width:auto;width:600px;}
+.mycinema .right_side{display:block;text-align:center;padding-top:40px;}
+.mycinema .right_side .txt{max-width:440px;margin:0 auto;margin-top:25px;padding-left:0px;}
+.mycinema .right_side a{padding-left:0px;}
+
+.dance{padding:0px 0 67px;}
+.dance .fp-tableCell{padding-bottom:0px;}
+.dance .txt{margin-top:40px;}
+
+.sailing{padding: 60px 0 50px;}
+.sailing .inner > .fright{float:none;margin-left:0px;}
+.sailing .content{padding-top:75px;text-align:center;padding-left:0px;}
+.sailing a{text-align:center;}
+
+.specialis{padding:90px 0 140px;}
+.specialis .inner > div.rL{max-width:none;width:auto;}
+
+/*about_me page max-width 1000px*/
+.about_me__page header {
+    padding: 0;  
+    min-height: 61px;
+}
+    
+   .about_me__page #header .inner {
+    width: 100%;
+}
+    
+.about_me__page .book {
+    padding-bottom: 110px;
+}
+    
+.about_me__page .book .inner {
+    width: 85%;
+    background-position: 55% 150px;
+}
+
+.about_me__page .book .image {
+    height: 526px;
+    padding-left: 20px;
+    width: 32%;
+}
+    
+.about_me__page .book .image p {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+    
+}
+    
+.about_me__page .book .image p .fullM {
+    display: none;
+}
+    
+.about_me__page .book .image p .smM {
+    display: inline;
+}
+    
+.about_me__page .book .image img {
+    width: 236px;
+    margin-top: 43px;
+    float: left;
+}
+
+.about_me__page .book .description {
+    width: 60%;
+    padding: 43px 10px 0px 20px;
+}
+     
+.about_me__page .book .description h2 {
+    max-width:60%;
+    margin-bottom: 90px;
+}    
+
+.about_me__page .book .description h2 .adapOff {
+    
+}
+
+.about_me__page .book .description p {
+    width: 90%;
+    font-size: 16px;
+   
+}
+    /*slider*/
+    #active {
+        /*расположение блока с переключателями*/
+        margin: 0 0 0 0;
+    }
+    /*end slider*/
+    .instruments .bg-inst {
+    height: 435px;
+    }
+    
+    .instruments .bg-inst .flextools .tools h3 {
+    font-size: 22px;
+    margin: 60px 0 9px;
+}
+
+.instruments .bg-inst .flextools .tools ul li {
+    font-size: 16px;
+}
+       .instruments {
+    height: 508px;
+}
+    
+    .licences {
+    padding-bottom: 100px;
+    }
+    
+    .licences .contLicen .portal .list {
+    float: left;
+    padding-left: 5%;
+    }
+    
+    .licences .contLicen .portal img {
+        width: 300px;
+    }
+    
+    .licences .contLicen .portal {
+    padding-top: 100px;
+    }
+/*end about me page max-width 1000px*/
+    
+/* portfolio */
+.portfolio_page #header{padding-bottom:65px;}
+.portfolio{padding:0 0 80px;}
+.portfolio .row .block{width:50%;margin-bottom:50px;}
+.portfolio .row .block:last-child{width:100%;}
+
+/* error page */
+.error_page header {padding:0px;display: flex;justify-content: center;align-items: center;flex-direction: column;}
+.error_page header h1{margin-top:120px;}
+.error_page header a{margin-top:100px;}
+
+/* prototype */
+.prototype_page header{padding-bottom:0px;}
+.prototype_banner h1{font-size:90px;line-height:100px;}
+.prototype{padding: 45px 0 100px;}
+.prototype .purposes h3{font-size:26px;line-height:29px;margin-top:60px;}
+.prototype .purposes ul{margin-top:20px;padding-left:0px;max-width:640px;}
+.prototype .purposes ul li span{font-size:20px;line-height:23px;}
+.prototype .image{margin-top:50px;}
+.prototype h4{font-size:26px;line-height:29px;margin-top:100px;}
+
+/* photography */
+.photography_page #header{padding-bottom:0px;}
+.photography_banner h1{font-size:120px;line-height:126px;}
+.photography_banner h1 span.db{font-size:80px;line-height:84px;}
+.photography{margin-top:-40px;padding:0 0 75px;}
+.photography .row{margin-right:-24px;}
+.photography .row .block{width:50%;padding-right:24px;margin-bottom:20px;}
+
+/*sailing statup*/
+.sailing_page #header{padding-bottom:0px;}
+.sailing_banner h1{font-size:100px;line-height:110px;margin-top:-55px;}
+.sailing_banner .logo{margin-top:0px;}
+.sailing_banner .logo img{max-width:510px;margin-left:-165px;}
+.sailing_block .block_1{padding:75px 0 100px;}
+.sailing_block .block_1 .bg{margin-top:100px;}
+.sailing_block .block_2 .screen1{padding:140px 0 85px;}
+.sailing_block .block_2 .screen1 .fright{width:320px;padding-top:180px;}
+.sailing_block .block_2 .screen1 .content .tbc{text-align:center;}
+.sailing_block .block_2 .screen2{padding-bottom:150px;}
+.sailing_block .block_2 .screen2 h3{font-size:30px;line-height:33px;max-width:500px;margin:0 auto;}
+.sailing_block .block_2 .screen2 .image{margin-top:120px;}
+.sailing_block .block_3 .advantage1{padding:90px 0 150px;}
+.sailing_block .block_3 .advantage .part .txt .title{font-size:36px;line-height:40px;}
+.sailing_block .block_3 .advantage .part .txt .description{padding-left:0px;margin-top:25px;}
+.sailing_block .block_3 .advantage .part .num{font-size:230px;line-height:180px;}
+.sailing_block .block_3 .advantage:nth-child(2n) .txt{padding-top:30px;}
+.sailing_block .block_3 .advantage2 .image{margin:100px 0 160px;}
+.sailing_block .block_3 .advantage2 .image .txt{padding-left:0px;}
+.sailing_block .block_3 .advantage3{padding-top:44px;}
+.sailing_block .block_3 .advantage3 .part .num{width:120px;}
+.sailing_block .block_3 .advantage .part .txt{padding-top:5px;}
+.sailing_block .block_3 .advantage3 .team{padding: 0 50px 55px;}
+.sailing_block .block_3 .advantage:nth-child(2n) .num{width:150px;}
+.sailing_block .block_3 .advantage4 .foto_animation{margin-top:90px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage1{padding:0px;margin-right:-20px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage1 .image{width:50%;padding-right:20px;margin-right:0px;box-sizing:border-box;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage1 .image > div.rL .abs .des_txt{margin-top:50px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2{margin-top:200px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage1 .image2 > div.rL:after{right:0px;height:300px;bottom:-310px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 h2{font-size:36px;line-height:40px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more{margin-top:40px;}
+.sailing_block .block_3 .advantage5{padding:100px 0 150px;}
+.sailing_block .block_3 .advantage5 .part .num{width:150px;}
+.sailing_block .block_3 .advantage.advantage5 form{margin-top:150px;}
+.sailing_block .block_5 .reply h2{font-size:50px;line-height:56px;}
+.sailing_block .block_5 .reply .image{max-width:none;margin-top:45px;padding-bottom:45px;}
+.sailing_block .block_5 .reply .image:after{display:none;}
+
+footer, #footer{padding-top:199px;}
+footer .inner > div.rL{margin-top:65px;}
+footer .inner > div.rL .form{padding-left:0px;width:440px;margin:0 auto;float:none;}
+footer .inner > div.rL .links{margin-top:80px;width:auto;float:none;}
+footer .inner .copyright{margin-top:10px;}
+}
+@media (max-width:900px){
+header .top_block{padding: 12px 0;}
+header .top_block .logo{float:none;margin:0 auto;margin-bottom:18px;}
+header .top_block .fright{float:none;text-align:center;}
+
+.dance h2{font-size:46px;line-height:50px;margin-top:-41px;}
+.dance .image img{max-width:400px;}
+
+/*about me page max-width 900px*/
+    
+     .about_me__page .zIndex {
+        z-index: 120;
+        position: fixed;
+        width: 100%;
+    }
+    
+       .about_me__page #header .inner {
+    width: 95%;
+           margin: 0 auto;
+}
+    
+   .about_me__page header .top_block .fright {
+        opacity: 0;
+        width: 100%;
+        top: -1000em;
+        position: absolute;
+        transition: opacity 0.6s;
+    }
+
+   .about_me__page header .top_block .fright.visible {
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        position: fixed;
+        background: #000;
+        z-index: 20;
+    }
+
+    .about_me__page header .top_block .fright.visible {
+        background: #252525;
+    }
+
+    .about_me__page header .top_block .fright ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .about_me__page header .top_block .fright ul li + li {
+        margin: 0px;
+    }
+
+    .about_me__page header .top_block .logo {
+        margin-bottom: 0px;
+        margin: 0 auto;
+    }
+
+
+    .about_me__page header h1 {
+        font-size: 42px;
+        line-height: 26px;
+        margin-top: 165px;
+    }
+
+    .about_me__page header .about_me {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 90px;
+    }
+
+    .about_me__page header .right_side_adap {
+        display: block;
+    }
+
+    .about_me__page header .top_block .fright ul {
+        text-align: right;
+        padding-top: 70px;
+    }
+
+    .about_me__page header .top_block .fright ul li {
+        padding: 0 15px;
+    }
+
+    .about_me__page header .top_block .fright ul li a {
+        font-size: 24px;
+        padding: 20px 0;
+        display: block;
+        color: #fff;
+    }
+.about_me__page .book .description h2 {
+    max-width: 73%
+}
+   .about_me__page .book .description h2 .adapOff {
+    display: inline;
+} 
+    
+    /*.about_me__page .book .description h2 .adapOff2 {
+    display: none;
+}*/
+    
+    /*slider*/
+    #active {
+        /*расположение блока с переключателями*/
+        margin: -35px 0 0 0;
+    }
+    /*end slider*/
+    .licences .contLicen .skill .list h3 {
+        min-width: 362px;
+    }
+    
+    /* end about me page max-width 900px*/
+    
+/* prototype */
+.prototype_banner h1{top:-93.5px;}
+.prototype{margin-top:-93.5px;}
+.prototype_banner .txt{bottom:193.5px;}
+
+/* photography */
+.photography_banner{top:-93.5px;}
+.sailing_block {margin-top:-93.5px;}
+
+
+/*sailing statup*/
+.sailing_banner{top:-93.5px;}
+
+/*fancybox*/
+.fancybox-opened{left:20px !important; right: 20px !important;width:auto !important;height:auto !important;}
+.fancybox-inner{width:auto !important;height:auto !important;}
+.fancybox-skin{padding:28px 0 !important;}
+.fancybox-skin, .fancybox-outer{width:100% !important;height:100% !important;}
+.fancybox-close{top:9px;right:8px;width:14px;height:14px;}
+.fancybox-nav span{width:20px;height:72px;margin-top:-36px;}
+}
+
+/*about me page max-width 780px*/
+@media (max-width:780px) {
+  
+    
+    /*slider*/
+    #active {
+        /*расположение блока с переключателями*/
+        margin: -60px 0 0 0;
+    }
+    /*end slider*/
+}
+/*end about me page max-width 780px*/
+
+@media (max-width:767px){
+header{padding-bottom:46px;background-position: center center;}
+header:after{bottom:6px;display:none;}
+header h1{font-size:68px;line-height:46px;margin-top:255px;}
+header h1 span.db{display:none;}
+header .top_block .fright
+.mycinema{padding: 95px 0 50px;}
+.mycinema .left_side img{height:256px;width:289px;left:-20px;}
+
+.dance{padding: 0px 0 45px;}
+
+.dance h2 span.rL:before{height:393px;top:-383px;width:254px;margin-left:-127px;}
+.dance .image{margin-top:40px;}
+.dance .image img{max-width:300px;}
+.dance .txt{margin-top:25px;}
+
+
+.sailing{padding: 120px 0 30px;}
+.sailing .inner > .fright img{height:261px;}
+.sailing .content{padding-top:45px;}
+.sailing .content h2{font-size:50px;line-height:54px;}
+
+.specialis{padding: 20px 0 30px;}
+.specialis h2{font-size:58px;line-height:62px;}
+.specialis .inner > div.rL{width:90%;margin:0 auto;margin-top:25px;}
+.specialis .inner > div.rL .row{font-size:16px;line-height:20px;}
+.specialis .inner > div.rL .row:nth-child(6){padding-bottom:10px;}
+.specialis .inner > div.rL .row:last-child{padding-top:10px;}
+.specialis .inner > div.rL .row:last-child:before{display:none;}
+.specialis .inner > div.rL .row .abs{font-size:48px;line-height:98px;left:0px;}
+.specialis .inner > div.rL .row .plus{top:-49px;left:17px;}
+
+/*about me page max-width 767px */
+    .about_me__page header {
+    min-height: 34px;
+}
+    
+    .about_me__page header .top_block .logo {
+        float: left;
+    }
+    
+    
+.about_me__page .book {
+    padding-bottom: 62px;
+    
+}
+    
+.about_me__page .book .inner {
+    width: 100%;
+    background-image: none;
+    padding-top: 15px;
+}
+    
+
+.about_me__page .book .inner .image {
+    width: 100%;
+    float: none;
+    padding: 0;
+    height: 108px;
+}
+
+.about_me__page .book .inner .image .tb {
+    width: 108px;
+    margin: 0 auto;
+}
+    
+    .about_me__page .book .inner .image img {
+        width: 108px;
+        margin: 0;
+    }
+
+    .about_me__page .book .inner .image .tb p {
+    display: none;
+}
+
+.about_me__page .book .description {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px 5px;
+    border-left: 0px;
+}
+    
+    .about_me__page .book .description h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about_me__page .book .description h2 {
+    margin: 0 auto 40px;
+    max-width: 260px;
+    font-size: 12px;
+}
+    
+
+.about_me__page .book .description h2 span.rL {
+    display: block;
+}
+
+.about_me__page .book .description h2 span.rL:after {
+    bottom: -7px;
+    left: 50%;
+    width: 228px;
+    margin-left: -114px;
+}
+
+.about_me__page .book .description p {
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+
+.about_me__page .book .description:after {
+    bottom: 7px;
+}
+    
+ /*slider*/
+    .all {
+        margin-top: 30px;
+        background: url('../../images/about_me/adap-arrow.png') no-repeat center;
+    }
+    
+
+    .first label {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        margin: 0 30px 0 0px;
+        position: relative;
+        z-index: 100;
+    }
+    
+    
+    
+#click1:checked+label,
+#click2:checked+label,
+#click3:checked+label,
+#click4:checked+label,
+#click5:checked+label,
+#click6:checked+label {
+    transform: none;
+}
+
+    .image article img:hover {
+    transform: scale(1.005);
+}
+
+    .first label img {
+        width: 153px;
+        height: 167px;
+        margin: 20px 10px;
+        -webkit-box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.3);
+    }
+
+
+    #slides article {
+        /*все изображения справа друг от доруга*/
+        width: 300%;
+       justify-content: space-between; 
+    }
+
+    #overflow { /*сркывает все, что находится за пределами этого блока*/
+    height: 200px;
+        width: 193px;
+        overflow-x: auto; 
+    }
+    
+    #desktop:checked ~ #slider {
+        /*размер всего слайдера*/
+        max-width: 200px;
+        min-width: 200px;
+        /*максимальнная длинна*/
+    }
+
+    #active {
+        display: none;
+    }
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image {
+	margin-left: 6%;
+}
+
+#switch2:checked ~ #slides .image {
+	margin-left: -100%;
+}
+    /*slider end*/   
+
+    .instruments {
+        position: relative;
+        z-index: 1;
+        margin-top: -50px;
+        height: auto;
+}
+    
+    .instruments .bg-inst {
+        
+    border-top-right-radius: 100% 65px;
+    border-top-left-radius: 100% 65px;
+    border-bottom-right-radius: 100% 65px;
+    border-bottom-left-radius: 100% 65px;
+    padding-top: 69px;
+        padding-bottom: 93px;
+        height: auto;
+        background: url('../../images/about_me/adap-arrow-down.png') no-repeat center #fff;
+}
+    
+    .instruments .bg-inst h2 {
+     font-size: 24px;
+    }
+    
+    .instruments .bg-inst .flextools {
+    width: 70%;
+    display: block;
+}
+    
+    
+    .instruments .bg-inst .flextools .pos-tool {
+    text-align: right;
+}
+    
+    
+    .instruments .bg-inst .flextools .tools h3 {
+    font-size: 14px;
+    margin: 45px 0 10px;
+}
+    
+    .instruments .bg-inst .flextools .tools ul li {
+    font-size: 16px;
+}
+    
+    .licences {
+        display: none;
+    }
+    
+    .licences_adap {
+        display: block;
+        width: 100%;
+        background-color: #222222;
+        padding-top: 43px;
+        padding-bottom: 58px;
+    }
+    
+    .licences_adap h2 {
+        text-align: center;
+        margin-bottom: 65px;
+    }
+    
+    .licences_adap h2 a {
+        text-align: center;
+        font: 24px 'geometric', sans-serif;
+        color: #999999;
+        margin-bottom: 65px;
+    }
+    
+    .licences_adap h2 a:hover {
+        color: #fff;
+    }
+    
+    .licences_adap .portal_adap {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .licences_adap .portal_adap .lic-pic {
+        width: 239px;
+        height: 138px;
+        margin: 0 auto;
+        background: url('../../images/about_me/certif-skill-adap.jpg');
+        box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.3);
+        margin-bottom: 60px;
+    }
+    
+    .licences_adap .portal_adap .lic-pic img {
+        position: relative;
+        top: -32px;
+        left: 14px;
+        box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.3);
+    }
+    
+    .licences_adap .list_adap {
+        text-align: center;
+        min-width: 90%;
+    }
+    
+    .licences_adap .list_adap p {
+        font: 14px 'MuseoSans', sans-serif;
+        color: #8a8a8a;
+        margin-bottom: 10px;
+    }
+    
+    .licences_adap .list_adap ul {
+    font: 500 italic 16px 'MuseoSans', sans-serif;
+    color: #cccccc;
+}
+    
+/*end about me page max-width 767px */
+
+/* portfolio */
+.portfolio_page #header{padding-bottom:40px;}
+.portfolio h3{font-size:16px;line-height:20px;}
+.portfolio h3 i{display:block;}
+.portfolio .row{margin-right:0px;}
+.portfolio .row .block{height:auto;margin-bottom:60px;width:auto;float:none;padding-right:0px;}
+.portfolio .row .block:last-child{width:auto;}
+.portfolio .row .block .image{height:auto;}
+.portfolio .row .block .title{font-size:32px;line-height:34px;}
+.portfolio .row .block .des{margin-top:10px;}
+.portfolio .comment{font-size:20px;line-height:24px;padding-top:0px;}
+
+/* error_page */
+.error_page header h1{margin-top:80px;padding:30px 0;}
+.error_page header a{margin-top:100px;}
+
+/* prototype */
+.prototype_banner h1{font-size:64px;line-height:70px;}
+.prototype .image .image_1{max-width:none;width:70%;}
+.prototype .image .image_2{width:70%;max-width:none;top:200px;}
+
+/* photography */
+.photography_banner h1{font-size:64px;line-height:70px;}
+.photography_banner h1 span.db{font-size:50px;line-height:56px;}
+.photography{padding:0 0 50px;}
+.photography .row{margin-right:0px;}
+.photography .row .block{height:290px;width:auto;float:none;padding-right:0px;}
+
+/*sailing statup*/
+.sailing_banner h1{font-size:64px;line-height:70px;margin-top:-35px;}
+.sailing_banner .logo img{width:440px;margin-left:-115px;}
+.sailing_block .block_1{padding:45px 0 100px;}
+.sailing_block .block_1 h2 span{margin-top:0px;}
+.sailing_block .block_1 .bg{margin-top:80px;}
+.sailing_block .block_1 .bg img{width:96%;}
+.sailing_block .block_2 .screen1{padding:90px 0 30px;}
+.sailing_block .block_2 .screen1 .fright{float:none;padding-top:0px;width:auto;margin-bottom:55px;}
+.sailing_block .block_2 .screen2{padding-bottom:60px;}
+.sailing_block .block_3 .advantage .part .num{font-size:100px;line-height:90px;text-indent:0px;width:60px;}
+.sailing_block .block_3 .advantage:nth-child(2n) .num{width:80px;}
+.sailing_block .block_3 .advantage .part .txt .title{font-size:24px;line-height:27px;}
+.sailing_block .block_3 .advantage .part .txt .description{font-size:14px;line-height:17px;margin-top:15px;}
+.sailing_block .block_3 .advantage1{padding:70px 0 80px;}
+.sailing_block .block_3 .advantage2 .image{margin:40px 0 80px;}
+.sailing_block .block_3 .advantage2 .image .txt{font-size:14px;line-height:17px;}
+.sailing_block .block_3 .advantage:nth-child(2n) .txt{padding-top:15px;}
+.sailing_block .block_3 .advantage3 .team{padding:0 20px 5px;margin-top:40px;border-width:10px;}
+.sailing_block .block_3 .advantage3 .team h3{max-width:170px;padding:0 15px;font-size:24px;line-height:27px;margin-top:-30px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage1 .image > div.rL .abs{display:none;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage1 .image2 > div.rL:after{right:-100px;bottom:-155px;height:140px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2{margin-top:160px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 h2{font-size:24px;line-height:27px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 h2 i{display:none;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more{padding:20px 35px;margin-top:20px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .left_side{width:100px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .left_side .image img{max-width:100px;max-height:100px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .left_side .social{text-align:center;margin-top:20px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .left_side .social a{font-size:12px;line-height:15px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .content{padding-top:10px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .content .title{font-size:20px;line-height:20px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .content .expert{font-size:14px;line-height:15px;margin-top:5px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .content .des_txt{margin-top:20px;font-size:14px;line-height:15px;}
+.sailing_block .block_3 .advantage5 .part .txt{padding-top:10px;}
+.sailing_block .block_3 .advantage .part .txt .description{margin-top:10px;}
+.sailing_block .block_4 .main_styles{padding: 120px 0;}
+.sailing_block .block_4 .main_styles .printing{margin-top:60px;}
+.sailing_block .block_4 .main_styles .printing .table .row .tb{display:block;}
+.sailing_block .block_4 .main_styles .printing .table .row .tb .tbc{display:block;width:auto;}
+.sailing_block .block_4 .main_styles .printing .table .row .tb .tbc:nth-child(2){border-top: 1px solid #b8b6b6;}
+.sailing_block .block_4 .main_styles .printing .table .row:nth-child(1) .tbc{font-size:56px;line-height:58px;}
+.sailing_block .block_5 .reply{padding-top:80px;}
+.sailing_block .block_5 .reply h2{font-size:36px;line-height:42px;}
+.sailing_block .block_5 .reply .image{padding-bottom:40px;}
+
+
+footer, #footer{padding-top:155px;}
+}
+@media (max-width:500px){
+.zIndex{z-index:10;position:fixed;width:100%;}
+header .top_block .fright{opacity:0;width:100%;top:-1000em;position:absolute;transition: opacity 0.6s;}
+header .top_block .fright.visible{opacity:1;top:0px;left:0px;right:0px;bottom:0px;position:fixed;background: #000;z-index:20;}
+.sailing_page header .top_block .fright.visible{background: #123a62;}
+    
+    /*about me page max-width 500px */
+.about_me__page header .top_block .fright.visible{background: #252525;}
+    /*about me page max-width 500px */
+    
+.portfolio_page header .top_block .fright.visible{background: #252525;}
+.cinema_page header .top_block .fright.visible{background:#630064;}
+.sitilinck_page header .top_block .fright.visible{background: #F36523;}
+.photography_page header .top_block .fright.visible{background: #fff;}
+header .top_block .fright ul li{display:block;}
+header .top_block .fright ul li+li{margin:0px;}
+header .top_block .logo{float:left;margin-bottom:0px;}
+header h1{font-size:42px;line-height:26px;margin-top:165px;}
+header .about_me{font-size:14px;line-height:16px;margin-top:90px;}
+header .right_side_adap{display:block;}
+header .top_block .fright ul{text-align:right;padding-top:70px;}
+header .top_block .fright ul li{padding:0 15px;}
+header .top_block .fright ul li a{font-size:24px;padding:20px 0;display:block;color:#fff;}
+.photography_page .top_block .fright ul li a{color:000;}
+
+.mycinema .right_side h2{font-size:46px;line-height:49px;}
+.mycinema .right_side .txt{font-size:16px;line-height:19px;margin-top:20px;}
+.mycinema .right_side a{margin-top:30px;}
+
+.dance h2{font-size:28px;line-height:32px;margin-top:-26px;}
+.dance h2 span.rL:before{top:-387px;}
+.dance .txt .image img{max-width:250px;}
+.dance .txt{font-size:16px;line-height:19px;margin-top:20px;}
+
+
+.sailing .content h2{font-size:32px;line-height:36px;}
+.sailing .content .txt{font-size:16px;line-height:19px;margin-top:20px;}
+
+.specialis h2{font-size:48px;line-height:52px;}
+
+/* error_page */
+.error_page header h1{font-size:24px;line-height:27px;}
+.error_page header .txt{font-size:16px;line-height:20px;}
+
+/* prototype */
+.prototype_banner h1{top:-46px;}
+.prototype{margin-top:-46px;padding:10px 0 80px;}
+.prototype_banner h1{font-size:38px;line-height:42px;}
+.prototype_banner .txt{bottom:100px;font-size:18px;line-height:21px;}
+.prototype h2{font-size:24px;line-height:27px;}
+.prototype .purposes h3{margin-top:45px;font-size:18px;line-height:21px;}
+.prototype .purposes ul li span{font-size:14px;line-height:17px;padding:12px 0;}
+.prototype .image{margin-top:30px;}
+.prototype h4{text-align:center;margin-top:70px;font-size:18px;line-height:21px;}
+.prototype .button{font-size:20px;line-height:23px;}
+.prototype .image .image_2{top:120px;}
+.prototype .image .image_3{margin-top:90px;}
+
+/* photography */
+.photography_banner h1{font-size:48px;line-height:52px;}
+.photography_banner h1 span.db{font-size:30px;line-height:36px;}
+.photography_banner{top:-46px;}
+.photography{margin-top:10px;}
+
+/*sailing statup*/
+.sailing_banner{top:-46px;}
+.sailing_banner h1{font-size:42px;z-index:0;line-height:46px;}
+.sailing_banner .logo img{z-index:0;width:300px;margin-left:-85px;margin-top:-20px;}
+.sailing_block {margin-top:-46px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more{padding: 10px 20px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .left_side .social{margin-top:10px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .left_side .social a{font-size:10px;line-height:6px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .content{padding-top:20px;}
+.sailing_block .block_3 .advantage4 .foto_animation .stage2 .more .content .des_txt{display:none;}
+.sailing_block .block_3 .advantage.advantage5 form button{left:-30px;}
+.sailing_block .block_3 .advantage5{padding:60px 0 70px;}
+.sailing_block .block_3 .advantage.advantage5 form{margin-top:80px;}
+.sailing_block .block_3 .advantage.advantage5 form .input_block .inputbox{padding:3px 40px 4px 20px;font-size:20px;line-height:24px;}
+.sailing_block .block_3 .advantage.advantage5 form .input_block:after{font-size:20px;margin-top:-12px;}
+.sailing_block .block_4 .main_styles{padding: 50px 0 80px;}
+.sailing_block .block_5 .reply{padding-bottom:25px;padding-top:50px;}
+.sailing_block .block_5 .reply h2{font-size:22px;line-height:25px;}
+.sailing_block .block_5 .reply .image{margin-top:20px;padding-bottom:30px;}
+
+footer .inner > div.rL .form{width:auto;}
+footer .inner > div.rL .form .input_block{float:none;margin:0 auto;}
+footer .inner > div.rL .form label{width:225px;margin:0 auto;padding-top:11px;padding-left:48px;}
+footer .inner > div.rL .form label b{left:31px;top:11px;}
+footer .inner > div.rL .form label span{padding-left:0px;}
+footer .inner > div.rL .links{text-align:center;}
+footer .inner > div.rL .links a{float:none;line-height:24px;}
+footer .inner .social__menu{margin-top:45px;}
+footer .inner .social__menu .fleft{display:none;}
+footer .inner .social__menu .fright{float:none;text-align:center;}
+footer .inner .copyright{margin-top:30px;padding: 20px 0;}
+footer button{left:-30px;}
+}
+@media (max-width:400px){
+.specialis h2{font-size:34px;line-height:40px;}
+.specialis .inner > div.rL{width:auto;}
+.specialis .inner > div.rL .row .abs{width:40px;left:-3px;}
+.specialis .inner > div.rL .row .plus{left:-3px;}
+
+    /*about me page max-width 400px */
+.about_me__page .book .description h2 {font-size:20px;line-height:24px;}
+/*end about me page max-width 400px */
+    
+.portfolio .row .sailing_bl .image{margin-left:-60px;}
+.portfolio .row .sailing_bl .image img{width:300px;}
+.portfolio .row .cinema_bl .image{margin-left:-5px;}
+.portfolio .row .cinema_bl .image img{width:300px;}
+
+footer button{font-size:24px;line-height:27px;}
+}

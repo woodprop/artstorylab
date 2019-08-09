@@ -1,0 +1,842 @@
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#container label {
+    cursor: pointer !important;
+}
+
+.reg_project header {
+    background: none;
+    height: 25px;
+    padding-top: 40px;
+}
+
+.reg_project header .logo-reg {
+    float: left;
+}
+
+.reg_project header .back-but {
+    float: right;
+    width: 315px;
+}
+
+.reg_project header .back-but input {
+    display: none;
+}
+
+.reg_project header .back-but a {
+    color: #666666;
+    background: url('../../images/registration-project/close-reg.png') no-repeat center right;
+    display: block;
+    transition: 0.6s;
+}
+
+.reg_project header .back-but a:hover {
+    color: #999999;
+    background: url('../../images/registration-project/close-reg-hov.png') no-repeat center right;
+}
+
+/*настройки положеня формы*/
+.reg_project .mainDiv {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.reg_project .mainDiv .cont-form {
+    width: 66%;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.reg_project .mainDiv .cont-form .over-form{
+    float: left;
+    overflow: hidden
+}
+
+.reg_project .mainDiv .cont-form input {
+    display: none;
+}
+
+.reg_project .mainDiv .cont-form form {
+    width: 500%;
+    height: 80%;
+}
+
+.reg_project .mainDiv .cont-form form fieldset {
+    width: 20%;
+    float: left;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*навигация*/
+.reg_project .mainDiv .cont-form .navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 105px;
+}
+
+.reg_project .mainDiv .cont-form .navigation label {
+    width: 22.2%;
+    height: 5px;
+    background-color: #cccccc;
+}
+
+#next:checked ~ .navigation label:nth-child(1) {
+    background-color: #2952cc;
+}
+
+#next1:checked ~ .navigation label:nth-child(2) {
+    background-color: #2952cc;
+}
+
+#next2:checked ~ .navigation label:nth-child(3) {
+    background-color: #2952cc;
+}
+
+#next3:checked ~ .navigation label:nth-child(4) {
+    background-color: #2952cc;
+}
+
+#next4:checked ~ .navigation label {
+    background-color: #2952cc;
+}
+
+/*Шаг 1, общие легенда и параграфы*/
+
+.reg_project fieldset legend {
+    margin: 0;
+    padding: 0;
+    font: 48px 'geometric', sans-serif;
+    color: #666666;
+}
+
+.reg_project fieldset p {
+    font: 18px 'MuseoSansCyrl', sans-serif;
+    color: #666666;
+}
+
+.reg_project fieldset legend+p {
+    margin: 75px 0 89px 0;
+}
+
+.reg_project fieldset input+p {
+    margin-top: 70px;
+}
+
+.reg_project fieldset label+p {
+    margin-top: 70px;
+}
+
+.reg_project fieldset .wrong2 {
+    float: left;
+}
+
+
+.reg_project fieldset .wrong3 {
+    float: right;
+}
+
+#user_name,
+#user_email,
+#user_tel {
+    display: block;
+    cursor: text;
+    width: 100%;
+    padding: 0;
+    height: 44px;
+    border-bottom: 1px solid #2952cc;
+    font: 24px 'MuseoSansCyrl', sans-serif;
+    color: #2952cc;
+    margin: 23px 0 0;
+}
+
+.reg_project .mainDiv .cont-form form .step1 label {
+    font: 14px 'MuseoSansCyrl', sans-serif;
+    color: #cc0000;
+    position: relative;
+    display: block;
+    width: 48.5%;
+}
+
+.reg_project .mainDiv .cont-form form .step1 label span {
+    position: absolute;
+    display: none;
+}
+
+.reg_project .mainDiv .cont-form form input::placeholder {
+    color: #cccccc;
+}
+
+
+
+/*Шаг2*/
+.reg_project fieldset .options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 138px;
+}
+
+.reg_project fieldset .options label {
+    width: 22.2%;
+    height: 200px;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.reg_project fieldset .options label p {
+    position: absolute;
+    top: 160px;
+    text-align: center;
+    width: 100%;
+}
+
+input[name="web"]:checked + label p,
+input[name="mob"]:checked + label p,
+input[name="graph"]:checked + label p,
+input[name="oth"]:checked + label p {
+    color: #fff;
+}
+
+input[name="web"]:checked + label img,
+input[name="mob"]:checked + label img,
+input[name="graph"]:checked + label img,
+input[name="oth"]:checked + label img {
+    display: none;
+}
+
+input[name="web"]:checked + label {
+    background: url('../../images/registration-project/web-white.png') no-repeat center 30px, url('../../images/registration-project/tick.png') no-repeat center 192px;
+}
+
+input[name="mob"]:checked + label {
+    background: url('../../images/registration-project/mob-white.png') no-repeat center 30px, url('../../images/registration-project/tick.png') no-repeat center 192px;
+}
+
+input[name="graph"]:checked + label {
+    background: url('../../images/registration-project/graph-white.png') no-repeat center 30px, url('../../images/registration-project/tick.png') no-repeat center 192px;
+}
+
+input[name="oth"]:checked + label {
+    background: url('../../images/registration-project/oth-white.png') no-repeat center 30px, url('../../images/registration-project/tick.png') no-repeat center 192px;
+}
+
+#option1:checked + label,
+#option2:checked + label,
+#option3:checked + label,
+#option4:checked + label {
+    background-color: #2952cc;
+}
+
+/*Шаг 3*/
+.reg_project .mainDiv .cont-form form .step3 .val {
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.reg_project .mainDiv .cont-form form .step3 input {
+    display: block;
+    text-align: center;
+    width: 50px;
+    font: 18px 'MuseoSansCyrl', sans-serif;
+    color: #666666;
+    margin: 0 -3px 10px 5px; 
+}
+
+.reg_project .mainDiv .cont-form form .step3 .val span {
+    font: 18px 'MuseoSansCyrl', sans-serif;
+    color: #666666;
+}
+
+#def {
+    margin-left: 13px;
+}
+
+.reg_project .mainDiv .cont-form form .step3 .feti {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+
+.reg_project .mainDiv .cont-form form .step3 .feti span {
+    border: none;
+    font: 18px 'MuseoSansCyrl', sans-serif;
+    color: #666666;
+}
+
+.reg_project option {
+    font: 18px 'MuseoSansCyrl', sans-serif;
+    color: #666666;
+}
+
+.reg_project option:checked {
+    display: none;
+    
+}
+/* Ширина слайдера */
+#slider {
+	width: 74%;
+}
+/* Контейнер слайдера */
+.ui-slider {
+	margin: 0 auto;
+    position: relative;
+}
+/* Ползунок */
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 16px;   /* Задаем нужную ширину */
+	height: 16px;  /* и высоту */
+	background: url(../../images/registration-project/range.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+	cursor: pointer;
+    
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: 0.7em;
+	display: block;
+	border: 0;
+	overflow: hidden;
+    
+}
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+.ui-slider-horizontal {
+	 height: 44px; /* задаем высоту согласно дизайна */
+}
+/* позиционируем ползунки */
+.ui-slider-horizontal .ui-slider-handle:nth-child(2) { 
+	top: 14px;
+	margin-left: 6px;
+}
+
+.ui-slider-horizontal .ui-slider-handle:nth-child(3) { 
+	top: 14px;
+	margin-left: -22px;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 7px;
+	height: 30px;
+}
+.ui-slider-horizontal .ui-slider-range-min { 
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+/* оформление полосы по которой ходит ползунок */
+.ui-widget-content { 
+	background: #eae8e8;
+    border: 0.1px solid #666666
+}
+
+#minVal,
+#maxVal {
+    margin: 0;
+    position: absolute;
+    top: -57px;
+    
+}
+
+#minVal {
+    left: 4%;
+}
+
+#maxVal {
+    left: 88%;
+    width: 90px;
+}
+/* оформление активного участка (между двумя ползунками) */
+.ui-widget-header { 
+	background: #2952cc;
+}
+/* скругление для полосы слайдера */
+.ui-corner-all {
+    
+}
+
+.reg_project .mainDiv .cont-form form .step3 label {
+    color: #666666;
+    font: 18px 'MuseoSansCyrl', sans-serif;
+    display: block;
+    margin-top: 160px;
+}
+
+.reg_project .mainDiv .cont-form form .step3 label:hover {
+    text-decoration: underline;
+}
+
+/*Шаг 4*/
+.reg_project .mainDiv .cont-form form .step4 input {
+    display: block;
+    cursor: inherit;
+    width: 48.5%;
+    padding: 0;
+    height: 44px;
+    border-bottom: 1px solid #2952cc;
+    font: 24px 'MuseoSansCyrl', sans-serif;
+    color: #2952cc;
+    margin: 23px 0 70px;
+}
+
+#rule {
+    display: none;  
+}
+
+.reg_project .mainDiv .cont-form form .step4 label {
+    float: left;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #2952cc;
+    position: relative;
+    top: 5px;
+}
+
+#rule:checked + label::before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 18px;
+    position: absolute;
+    color: #3366cc;
+    font-weight: normal;
+    left: 4px;
+    top: 3px;
+}
+
+.reg_project .mainDiv .cont-form form .step4 .rule-div {
+    width: 100%;
+    min-width: 330px;
+    float: left;
+}
+
+.reg_project .mainDiv .cont-form form .step4 span {
+    display: block;
+    width: 275px;
+    min-width: 275px;
+    font: 16px 'MuseoSansCyrl', sans-serif;
+    color:#666666;
+    float: left;
+    margin-left: 16px;
+}
+
+.reg_project .mainDiv .cont-form form .step4 span mark {
+    background-color: inherit;
+    text-decoration: underline;
+    font: 16px 'MuseoSansCyrl', sans-serif;
+    color:#666666;
+}
+
+.reg_project .mainDiv .cont-form form .step4 span:hover {
+    color:#999999;
+}
+
+.reg_project .mainDiv .cont-form form .step4 span a:hover mark {
+    color:#999999;
+}
+
+/*Шаг 5*/
+.reg_project .mainDiv .cont-form form .step5 span {
+    font: 18px 'MuseoSansCyrl', sans-serif;
+    color:#666666;
+}
+
+.reg_project .mainDiv .cont-form form .step5 span a {
+    color: #3366cc;
+    display: inline-block;
+    width: 175px;
+    background: url('../../images/registration-project/ellipse_dots.png') no-repeat right;
+    transition: 500ms linear;
+}
+
+.reg_project .mainDiv .cont-form form .step5 span a:hover {
+    color: #6699cc;
+    width: 184px;
+    background: url('../../images/registration-project/ellipse_dots-hov.png') no-repeat right;
+}
+
+/*Кнопки "дальше" - положение и стиль*/
+.reg_project .mainDiv  article {
+    width: 1000%;
+    position: absolute;
+    top: 625px;
+}
+
+.reg_project .mainDiv  article .nextBut {
+    float: left;
+    width: 19.1%;    
+}
+
+.reg_project .mainDiv  article .nextBut label {
+    display: block;
+    width: 150px;
+    height: 44px;
+    background: url('../../images/registration-project/next-but-dots.png') no-repeat 108px center;
+    background-color: #2952cc;
+    color: #fff;
+    font: 18px 'geometric', sans-serif;
+    line-height: 44px;
+    padding-left: 16px;
+}
+
+.reg_project .mainDiv .cont-form article .nextBut label:hover {
+    background-color: #666666;
+}
+
+.reg_project .mainDiv  article .lastBut label {
+    float: left;
+    width: 0.9%;
+    height: 44px;
+    background: url('../../images/registration-project/next-but-dots2.png') no-repeat center;
+    transition: 500ms linear;
+}
+
+.reg_project .mainDiv  article .lastBut label:hover {
+    background: url('../../images/registration-project/back-but-hov.png') no-repeat left;
+    
+}
+
+/*Перереход от шага к шагу*/
+
+#next1:checked ~ article {
+    margin-left: -200%;
+}
+
+#next2:checked ~ article {
+    margin-left: -400%;
+}
+
+#next3:checked ~ article {
+    margin-left: -600%;
+}
+
+#next4:checked ~ article {
+    margin-left: -800%;
+}
+
+.reg_project .mainDiv .cont-form article {
+    transition: all 800ms linear;
+}
+
+
+#next1:checked ~ .over-form form {
+    margin-left: -100%;
+}
+
+#next2:checked ~ .over-form form {
+    margin-left: -200%;
+}
+
+#next3:checked ~ .over-form form {
+    margin-left: -300%;
+}
+
+#next4:checked ~ .over-form form {
+    margin-left: -400%;
+}
+
+.reg_project .mainDiv .cont-form form {
+    transition: all 800ms linear;
+}
+
+/*подвал*/
+.reg_project footer {
+    clear: both;
+    float: left;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: inherit;
+}
+
+.reg_project footer .reg-contact {
+    text-align: right;
+    width: 100%;
+}
+
+.reg_project footer .reg-contact a {
+    color: #666666;
+    font: 14px 'MuseoSansCyrl', sans-serif;
+    margin-right: 2%;
+}
+
+.reg_project footer .reg-contact a:hover {
+    text-decoration: underline;
+}
+
+/*Адаптив*/
+/*max-width 1200px*/
+@media (max-width: 1200px) {
+    #slider {
+        width: 65%;
+    }
+    
+    #minVal {
+        left: 5%;
+    }
+    
+    #maxVal {
+        left: 84%
+    }
+}
+
+/*max-width 1100px*/
+
+@media (max-width: 1100px) {
+    header {
+        text-align: center;
+    }
+    
+    header .logo-reg {
+        width: 100%;
+        display: inline;
+    }
+    
+    header .logo-reg a {
+        display: inline;
+    }
+    
+    .reg_project header .back-but {
+        width: 20px;
+        position: relative;
+        top: -20px;
+    }
+    
+    .reg_project header .back-but a {
+        height: 20px;
+        width: 20px;
+        float: right;
+    }
+    .reg_project header .back-but a span {
+        display: none;
+    }
+}
+
+/*max-width 1000px*/
+
+@media (max-width: 1000px) {
+    .reg_project .mainDiv article .nextBut {
+        float: left;
+        width: 18.5%;
+    }
+    
+    .reg_project .mainDiv article .lastBut label {
+        width: 1.5%;
+    }
+}
+
+/*max-width 860px*/
+
+@media (max-width: 860px) {
+    .reg_project fieldset legend {
+        font-size: 30px;
+    }
+    
+    .reg_project fieldset p {
+        font-size: 14px;
+    }
+    
+    .reg_project .mainDiv .cont-form .navigation {
+        top: 65px;
+    }
+
+    .reg_project fieldset legend + p {
+        margin: 45px 0 39px 0;
+    }
+
+    .reg_project fieldset label + p {
+        margin-top: 40px;
+    }
+
+    .reg_project fieldset .wrong2 {
+        float: none;
+    }
+
+
+    .reg_project fieldset .wrong3 {
+        float: none;
+    }
+    
+    .reg_project .mainDiv .cont-form form .step1 label {
+        margin: 10px 0 40px
+    }
+    
+    .reg_project .mainDiv  article {
+        top: 520px;
+    }
+    
+    .reg_project .mainDiv .cont-form {
+        height: 600px;
+    }
+    
+    .reg_project fieldset .options {
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+    }
+    
+    .reg_project fieldset .options label {
+        min-width: 110px;
+        width: 44.4%;
+        margin-bottom: 20px; 
+    }
+    
+    .reg_project .next-step2 {
+        margin-top: 160px;
+    }
+    .reg_project .last-step2 {
+        margin-top: 160px;
+    }
+    
+    #slider,
+    #minVal,
+    #maxVal {
+        display: none;
+    }
+    
+    
+    .reg_project .mainDiv .cont-form form .step3 .val {
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .reg_project .mainDiv .cont-form form .step3 input {
+        width: 76px;
+        height: 50px;
+        margin: 0;
+        border: 2px solid #999999;
+        position: relative;
+        top: 75px;
+        font-size: 24px;
+    }
+    
+    .reg_project .mainDiv .cont-form form .step3 input:focus {
+        color: #3366cc;
+        border-color: #3366cc;
+    }
+
+    .reg_project .mainDiv .cont-form form .step3 .val span {
+        position: absolute;
+    }
+    
+    #def {
+        top: 90px;
+        margin: 0;
+    }
+    
+    #rub1,
+    #rub2 {
+        top: 130px;
+    }
+    
+    #rub1 {
+        left: 20%;
+    }
+    
+    #rub2 {
+        left: 70%;
+    }
+
+    .reg_project .mainDiv .cont-form form .step3 .feti {
+        margin-top: -30px;
+    }
+    
+    #notManey {
+        display: none;
+    }
+    
+    
+    
+    .reg_project .mainDiv .cont-form form .step4 input {
+        min-width: 290px;
+    }
+}
+
+/*max-width 600px*/
+@media (max-width: 600px) {
+    #container {
+        width: 100%;
+    }
+    
+    .reg_project .header-cont {
+        padding: 0 2%;
+    }
+    
+    .reg_project .header-cont .logo-reg {
+        text-align: left;
+    }
+    
+    .reg_project .mainDiv .cont-form {
+        width: 96%;
+        padding: 0 2%;
+    }
+    
+    .reg_project .mainDiv .cont-form form .step1 label {
+        width: 100%;
+    }
+    
+    .reg_project .mainDiv .cont-form form .step3 .val {
+        width: 100%
+    }
+    #rub1 {
+        left: 22%;
+    }
+    
+    #rub2 {
+        left: 72%;
+    }
+    
+    .reg_project .mainDiv .cont-form form .step4 input {
+        width: 100%;
+    }
+    
+    #next1:checked ~ article {
+        margin-left: -145%;
+    }
+
+    #next2:checked ~ article {
+        margin-left: -345%;
+    }
+
+    #next3:checked ~ article {
+        margin-left: -545%;
+    }
+
+    #next4:checked ~ article {
+        margin-left: -745%;
+    }
+    
+    .reg_project footer {
+        display: none;
+    }
+}
+
+/*max-width 450px*/
+
+@media (max-width: 450px) {
+    #next1:checked ~ article {
+        margin-left: -155%;
+    }
+
+    #next2:checked ~ article {
+        margin-left: -355%;
+    }
+
+    #next3:checked ~ article {
+        margin-left: -555%;
+    }
+
+    #next4:checked ~ article {
+        margin-left: -755%;
+    }
+}
