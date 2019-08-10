@@ -12,5 +12,10 @@ $router->get('portfolio', [
 
 
 $router->get('portfolio/{template}', [
-    'as' => 'port', 'uses' => 'PortfolioController@project'
+    'as' => 'portfolioItem', 'uses' => 'PortfolioController@project'
 ]);
+
+
+$router->get('order', ['as' => 'order', function () use ($router) {
+    return view('order');
+}]);
