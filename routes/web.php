@@ -19,3 +19,8 @@ $router->get('portfolio/{template}', [
 $router->get('order', ['as' => 'order', function () use ($router) {
     return view('order');
 }]);
+
+
+$router->get('about', ['as' => 'about', function () use ($router) {
+    return view('about');
+}]);

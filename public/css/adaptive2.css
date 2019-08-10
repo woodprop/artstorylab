@@ -1,186 +1,639 @@
 @media (max-width:1200px) {
-.sitilinck_page .banner{background-size: auto;background-position: 34% center;}
-.cinema_page #header {height: auto;padding-bottom: 0!important;}
-.cinema_page #header span.ah2{padding-bottom: 410px;padding-top: 170px;}
-}
-@media (max-width:1120px){
-.sitilinck_page #header {height: auto;padding-bottom: 572px;}
-.Dance_page .logo_block span.logo {font-size: 80px; line-height: 83px;}
-.Dance_page .project .inner {width: 100%;padding: 0px;padding-top: 50px; box-sizing: border-box;}
-.Dance_page .project p {padding: 0px;margin-top: 75px;margin-bottom: 142px;}
-.Dance_page .project span.upp {padding-left: 30px;}
-.Dance_page .project .color_block:before {width: 733px;height: 428px;background-size: contain;}
-.Dance_page .project .color_block {padding: 0px; padding-bottom: 300px;}
-.Dance_page .project span.colors {display: none;}
-.Dance_page .project .color_block .row .item .color {height: 107px;width: 107px;}
-.Dance_page .project .color_block .row .item {padding-right: 19px;}
-.Dance_page .project .color_block .row {margin-right: -19px;padding: 0px 80px; box-sizing: border-box;}
-.Dance_page .project .color_block:before{margin-bottom: 63px;}
-.Dance_page .TYPOGRAPHY_block .inner {width: 100%;padding-top: 100px;}
-.Dance_page .TYPOGRAPHY_block span.headline {padding-left: 9px;}
-.Dance_page .TYPOGRAPHY_block .inner {margin-bottom: 0px;}
-
-.cinema_page .info_block:before {margin-left: 0px;}
-
-.cinema_page .merits .block:nth-child(1) {padding-bottom: 345px;margin-bottom: 0px;}
-.cinema_page .merits .block:nth-child(1):before {top: 205px;}
-.cinema_page .merits .block:nth-child(1):after {margin-top: 315px;}
-.cinema_page .merits .block:nth-child(2) {padding-bottom: 524px; margin-bottom: 0px;} 
-.cinema_page .merits .block:nth-child(2):before {margin-left: 64px; margin-top: 200px;}
-.cinema_page .merits .block:nth-child(3):before {right:auto; left: 0px; margin-right: 0px;bottom: 135px;}
+    .sitilinck_page .banner {
+        background-size: auto;
+        background-position: 34% center;
+    }
+    .cinema_page #header {
+        height: auto;
+        padding-bottom: 0!important;
+    }
+    .cinema_page #header span.ah2 {
+        padding-bottom: 410px;
+        padding-top: 170px;
+    }
 }
 
-@media (max-width:1070px){
-.Gms_page #header span.ah2 {font-size: 72px; line-height: 75px;}
+@media (max-width:1120px) {
+    .sitilinck_page #header {
+        height: auto;
+        padding-bottom: 572px;
+    }
+    .Dance_page .logo_block span.logo {
+        font-size: 80px;
+        line-height: 83px;
+    }
+    .Dance_page .project .inner {
+        width: 100%;
+        padding: 0px;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    .Dance_page .project p {
+        padding: 0px;
+        margin-top: 75px;
+        margin-bottom: 142px;
+    }
+    .Dance_page .project span.upp {
+        padding-left: 30px;
+    }
+    .Dance_page .project .color_block:before {
+        width: 733px;
+        height: 428px;
+        background-size: contain;
+    }
+    .Dance_page .project .color_block {
+        padding: 0px;
+        padding-bottom: 300px;
+    }
+    .Dance_page .project span.colors {
+        display: none;
+    }
+    .Dance_page .project .color_block .row .item .color {
+        height: 107px;
+        width: 107px;
+    }
+    .Dance_page .project .color_block .row .item {
+        padding-right: 19px;
+    }
+    .Dance_page .project .color_block .row {
+        margin-right: -19px;
+        padding: 0px 80px;
+        box-sizing: border-box;
+    }
+    .Dance_page .project .color_block:before {
+        margin-bottom: 63px;
+    }
+    .Dance_page .TYPOGRAPHY_block .inner {
+        width: 100%;
+        padding-top: 100px;
+    }
+    .Dance_page .TYPOGRAPHY_block span.headline {
+        padding-left: 9px;
+    }
+    .Dance_page .TYPOGRAPHY_block .inner {
+        margin-bottom: 0px;
+    }
+    .cinema_page .info_block:before {
+        margin-left: 0px;
+    }
+    .cinema_page .merits .block:nth-child(1) {
+        padding-bottom: 345px;
+        margin-bottom: 0px;
+    }
+    .cinema_page .merits .block:nth-child(1):before {
+        top: 205px;
+    }
+    .cinema_page .merits .block:nth-child(1):after {
+        margin-top: 315px;
+    }
+    .cinema_page .merits .block:nth-child(2) {
+        padding-bottom: 524px;
+        margin-bottom: 0px;
+    }
+    .cinema_page .merits .block:nth-child(2):before {
+        margin-left: 64px;
+        margin-top: 200px;
+    }
+    .cinema_page .merits .block:nth-child(3):before {
+        right: auto;
+        left: 0px;
+        margin-right: 0px;
+        bottom: 135px;
+    }
 }
-@media (max-width:1000px){
-	.sitilinck_page #header {background-size: 100% 100%;}
 
-	.cinema_page .tickets {padding-bottom: 600px;}
-	.cinema_page .info_block:before {width: 410px;height: 543px;}
-	.cinema_page .info_block .fright {width: 370px;}
-	.cinema_page .info_block {padding-top: 260px;}
-	.cinema_page .info_block .fright .block:nth-child(2) {margin-top: 85px;}
-	.cinema_page .info_block .fright .block span.db {margin-bottom: 10px;}
-	.cinema_page .info_block .fright .block span.db:after {bottom: -7px;}
+@media (max-width:1070px) {
+    .Gms_page #header span.ah2 {
+        font-size: 72px;
+        line-height: 75px;
+    }
+}
+
+@media (max-width:1000px) {
+    .sitilinck_page #header {
+        background-size: 100% 100%;
+    }
+    .cinema_page .tickets {
+        padding-bottom: 600px;
+    }
+    .cinema_page .info_block:before {
+        width: 410px;
+        height: 543px;
+    }
+    .cinema_page .info_block .fright {
+        width: 370px;
+    }
+    .cinema_page .info_block {
+        padding-top: 260px;
+    }
+    .cinema_page .info_block .fright .block:nth-child(2) {
+        margin-top: 85px;
+    }
+    .cinema_page .info_block .fright .block span.db {
+        margin-bottom: 10px;
+    }
+    .cinema_page .info_block .fright .block span.db:after {
+        bottom: -7px;
+    }
 }
 
 @media (max-width:900px) {
-	.sitilinck_page .banner {background-position: 37% center;}
-	
-	.Gms_page #header {background-image: url(../../images/photos/case_gms/mainphoto_tablet_case_gms-min.png);}
-	.Gms_page .video_block .vid {height: 420px;}
-	.Gms_page .video_block{margin-bottom: 0px;}
-	
-	.cinema_page #header span.ah2 {font-size: 130px; line-height: 133px;}
-
-	.cinema_page .catalog .block:nth-child(1) .item {width: 610px;height: 650px;margin-bottom: 100px;}
-	.cinema_page .catalog .block:nth-child(2) .item {width: 610px;height: 650px;margin-bottom: 100px;}
-	.cinema_page .catalog .block:nth-child(3) .item {width: 580px;height: 517px;}
-	.cinema_page .catalog .block:nth-child(4) .item {width: 600px;height: 585px;margin-left: 0px;}
-	.cinema_page .catalog .block:nth-child(4) span.db {margin-top: 0px;}
-	.cinema_page .catalog .block:nth-child(5) .item{width: 280px;height: 620px;}
-	.cinema_page .palette span.db {font-size: 140px; line-height: 143px; margin-top: 50px;}
-	.cinema_page .palette span.rL {font-size: 120px; line-height: 123px;margin-top: 50px;}
-	.cinema_page .conclusion span.db:nth-child(1) {font-size: 30px; line-height: 36px;}
-	.cinema_page .conclusion span.db:nth-child(2) {font-size: 30px; line-height: 36px;}
-	.cinema_page .conclusion span.db:nth-child(3) {font-size: 30px; line-height: 36px;}
-
+    .sitilinck_page .banner {
+        background-position: 37% center;
+    }
+    .Gms_page #header {
+        background-image: url(../../images/photos/case_gms/mainphoto_tablet_case_gms-min.png);
+    }
+    .Gms_page .video_block .vid {
+        height: 420px;
+    }
+    .Gms_page .video_block {
+        margin-bottom: 0px;
+    }
+    .cinema_page #header span.ah2 {
+        font-size: 130px;
+        line-height: 133px;
+    }
+    .cinema_page .catalog .block:nth-child(1) .item {
+        width: 610px;
+        height: 650px;
+        margin-bottom: 100px;
+    }
+    .cinema_page .catalog .block:nth-child(2) .item {
+        width: 610px;
+        height: 650px;
+        margin-bottom: 100px;
+    }
+    .cinema_page .catalog .block:nth-child(3) .item {
+        width: 580px;
+        height: 517px;
+    }
+    .cinema_page .catalog .block:nth-child(4) .item {
+        width: 600px;
+        height: 585px;
+        margin-left: 0px;
+    }
+    .cinema_page .catalog .block:nth-child(4) span.db {
+        margin-top: 0px;
+    }
+    .cinema_page .catalog .block:nth-child(5) .item {
+        width: 280px;
+        height: 620px;
+    }
+    .cinema_page .palette span.db {
+        font-size: 140px;
+        line-height: 143px;
+        margin-top: 50px;
+    }
+    .cinema_page .palette span.rL {
+        font-size: 120px;
+        line-height: 123px;
+        margin-top: 50px;
+    }
+    .cinema_page .conclusion span.db:nth-child(1) {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .cinema_page .conclusion span.db:nth-child(2) {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .cinema_page .conclusion span.db:nth-child(3) {
+        font-size: 30px;
+        line-height: 36px;
+    }
 }
 
-@media (max-width:780px){
-	.cinema_page #header {background-image: url(../../images/mycinema/header_bac_tablet.png);    background-position: 0% 99%;}
-	.cinema_page #header span.ah2 {padding-top: 100px; padding-bottom: 700px;}
-
+@media (max-width:780px) {
+    .cinema_page #header {
+        background-image: url(../../images/mycinema/header_bac_tablet.png);
+        background-position: 0% 99%;
+    }
+    .cinema_page #header span.ah2 {
+        padding-top: 100px;
+        padding-bottom: 700px;
+    }
 }
-@media (max-width:730px){
-.Dance_page #header {background: #000;}
-.Dance_page .logo_block span.logo {font-size: 36px; line-height: 39px;margin-top: 392px;margin-bottom: 0px;}
-.Dance_page .logo_block {margin-bottom: 116px!important;}
-.Dance_page .project span.upp {font-size: 18px; line-height: 24px;padding-left: 15px; display: block;}
-.Dance_page .project p {font-size: 16px; line-height: 18px;padding: 0px 10px;margin-top: 40px;margin-bottom: 95px;}
-.Dance_page .project .inner {padding-top: 30px;}
-.Dance_page .project .color_block:before {width: 302px;height: 180px;margin-top: 75px;margin-bottom: 22px;}
-.Dance_page .project .color_block .row .item {width: 50%;margin-bottom: 30px;}
-.Dance_page .project .color_block .row {padding: 0px;} 
-.Dance_page .project .color_block .row .item span.db{margin-top: 19px;font-size: 14px; line-height: 24px;}
-.Dance_page .project .color_block {background-position: center top;}
-.Dance_page .project .color_block {background-position: center 50%;background-size: 425% 134%; padding-bottom: 87px;}
-.Dance_page .TYPOGRAPHY_block span.headline {font-size: 18px; line-height: 24px;padding-left: 0px;padding-bottom: 46px;}
-.Dance_page .TYPOGRAPHY_block .inner{padding-top: 0px;padding: 0px 15px;box-sizing: border-box;padding-bottom: 92px;}
-.Dance_page .TYPOGRAPHY_block .item {width: 100%;}
-.Dance_page .project .color_block .row .item:nth-child(3){float: right;width: 100%;margin-top: 185px;}
-.Dance_page .project .color_block .row .item:nth-child(5){margin-top: -360px;float: right;}
-.Dance_page .project .color_block .row .item:nth-child(4){margin-top: -360px;}
 
-.cinema_page .info_block {padding-top: 465px;padding-bottom: 70px; background-image: url(../../images/mycinema/info_mobile.png);background-size: 100% 100%;}
-.cinema_page .info_block:before {z-index: 2; width: 156px;height: 350px;margin-top: 77px;left: 50%;margin-left: -78px;}
-.cinema_page .info_block:after {content: "";width: 165px;height: 233px; left:50%;margin-left: -82.5px;top: 50%;margin-top: 100px;z-index: 0; background-size: cover;background-repeat: no-repeat;background-position: center;background-image: url(../../images/mycinema/Попкорн.png);display: block;position: absolute;}
-.cinema_page .info_block .fright .block span.db {font-size: 24px; line-height: 27px;}
-.cinema_page .info_block .fright{width: auto;z-index: 2;}
-.cinema_page .info_block .fright .block span.db:after {width: 135px;}
-.cinema_page .info_block .fright .block p{font-size: 16px;line-height: 24px;}
-.cinema_page .info_block .fright .block:nth-child(2) {margin-top: 60px;}
+@media (max-width:730px) {
+    .Dance_page #header {
+        background: #000;
+    }
+    .Dance_page .logo_block span.logo {
+        font-size: 36px;
+        line-height: 39px;
+        margin-top: 392px;
+        margin-bottom: 0px;
+    }
+    .Dance_page .logo_block {
+        margin-bottom: 116px!important;
+    }
+    .Dance_page .project span.upp {
+        font-size: 18px;
+        line-height: 24px;
+        padding-left: 15px;
+        display: block;
+    }
+    .Dance_page .project p {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 0px 10px;
+        margin-top: 40px;
+        margin-bottom: 95px;
+    }
+    .Dance_page .project .inner {
+        padding-top: 30px;
+    }
+    .Dance_page .project .color_block:before {
+        width: 302px;
+        height: 180px;
+        margin-top: 75px;
+        margin-bottom: 22px;
+    }
+    .Dance_page .project .color_block .row .item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .Dance_page .project .color_block .row {
+        padding: 0px;
+    }
+    .Dance_page .project .color_block .row .item span.db {
+        margin-top: 19px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .Dance_page .project .color_block {
+        background-position: center top;
+    }
+    .Dance_page .project .color_block {
+        background-position: center 50%;
+        background-size: 425% 134%;
+        padding-bottom: 87px;
+    }
+    .Dance_page .TYPOGRAPHY_block span.headline {
+        font-size: 18px;
+        line-height: 24px;
+        padding-left: 0px;
+        padding-bottom: 46px;
+    }
+    .Dance_page .TYPOGRAPHY_block .inner {
+        padding-top: 0px;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        padding-bottom: 92px;
+    }
+    .Dance_page .TYPOGRAPHY_block .item {
+        width: 100%;
+    }
+    .Dance_page .project .color_block .row .item:nth-child(3) {
+        float: right;
+        width: 100%;
+        margin-top: 185px;
+    }
+    .Dance_page .project .color_block .row .item:nth-child(5) {
+        margin-top: -360px;
+        float: right;
+    }
+    .Dance_page .project .color_block .row .item:nth-child(4) {
+        margin-top: -360px;
+    }
+    .cinema_page .info_block {
+        padding-top: 465px;
+        padding-bottom: 70px;
+        background-image: url(../../images/mycinema/info_mobile.png);
+        background-size: 100% 100%;
+    }
+    .cinema_page .info_block:before {
+        z-index: 2;
+        width: 156px;
+        height: 350px;
+        margin-top: 77px;
+        left: 50%;
+        margin-left: -78px;
+    }
+    .cinema_page .info_block:after {
+        content: "";
+        width: 165px;
+        height: 233px;
+        left: 50%;
+        margin-left: -82.5px;
+        top: 50%;
+        margin-top: 100px;
+        z-index: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../../images/mycinema/Попкорн.png);
+        display: block;
+        position: absolute;
+    }
+    .cinema_page .info_block .fright .block span.db {
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .cinema_page .info_block .fright {
+        width: auto;
+        z-index: 2;
+    }
+    .cinema_page .info_block .fright .block span.db:after {
+        width: 135px;
+    }
+    .cinema_page .info_block .fright .block p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .cinema_page .info_block .fright .block:nth-child(2) {
+        margin-top: 60px;
+    }
 }
 
 @media (max-width:670px) {
-	.sitilinck_page #header {height:366px;background-size:100% 100%;padding-bottom: 0px;}
-	.sitilinck_page .shadow_block {display: none;}
-	.sitilinck_page .target span.db {font-size: 14px; line-height: 16px;margin-bottom: 5px;}
-	.sitilinck_page .target p{font-size: 14px; line-height: 16px;}
-	.sitilinck_page .target p b {display: none;}
-	.sitilinck_page .target {padding-top: 108px; padding-bottom: 101px;}
-	.sitilinck_page .banner {height: 330px;background-size: cover;}
+    .sitilinck_page #header {
+        height: 366px;
+        background-size: 100% 100%;
+        padding-bottom: 0px;
+    }
+    .sitilinck_page .shadow_block {
+        display: none;
+    }
+    .sitilinck_page .target span.db {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+    .sitilinck_page .target p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .sitilinck_page .target p b {
+        display: none;
+    }
+    .sitilinck_page .target {
+        padding-top: 108px;
+        padding-bottom: 101px;
+    }
+    .sitilinck_page .banner {
+        height: 330px;
+        background-size: cover;
+    }
+    .Gms_page #header span.ah2 {
+        font-size: 48px;
+        line-height: 51px;
+        padding-top: 223px;
+        padding-bottom: 287px;
+    }
+    .Gms_page .text_block span.db {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .Gms_page .text_block {
+        margin-top: 54px;
+        margin-bottom: 65px;
+    }
+    .Gms_page .text_block p {
+        font-size: 16px;
+        line-height: 18px;
+        padding-left: 0px;
+    }
+    .Gms_page .text_block span.db {
+        margin-bottom: 25px;
+    }
+    .Gms_page .video_block .vid {
+        height: 164px;
+    }
+    .cinema_page #header span.ah2 {
+        font-size: 55px;
+        line-height: 59px;
+        padding-top: 60px;
+        padding-bottom: 440px;
+    }
+    .cinema_page .tickets .fleft {
+        margin-right: 39px;
+    }
+    .cinema_page .tickets {
+        padding-bottom: 370px;
+        background-color: #DEB8DE;
+        padding-top: 10px;
+    }
+    .cinema_page .merits .block .fright {
+        width: auto;
+    }
+    .cinema_page .merits .block .fright .rL.hid {
+        font-size: 16px;
+        text-align: left;
+        padding-right: 20px;
+        margin-top: 65px;
+    }
+    .cinema_page .merits .block .fright .right {
+        position: absolute;
+        right: 0px;
+    }
+    .cinema_page .merits .block:nth-child(1):before {
+        width: 280px;
+        height: 54px;
+        top: 230px;
+    }
+    .cinema_page .merits .block:nth-child(1):after {
+        width: 292px;
+        height: 54px;
+        margin-top: 267px;
+        margin-left: 7px;
+    }
+    .cinema_page .merits .block:nth-child(1) {
+        padding-bottom: 250px;
+    }
+    .cinema_page .merits .block:nth-child(2) .fright {
+        width: auto;
+    }
+    .cinema_page .merits .block:nth-child(2) .fright .rL.hid {
+        margin-top: 97px;
+    }
+    .cinema_page .merits .block:nth-child(2):before {
+        width: 190px;
+        height: 260px;
+        margin-top: 215px;
+        left: 50%;
+        margin-left: -95px;
+    }
+    .cinema_page .merits .block:nth-child(2) {
+        padding-bottom: 330px;
+    }
+    .cinema_page .merits .block .fright {
+        width: 100%;
+    }
+    .cinema_page .merits .block:nth-child(3) {
+        padding-bottom: 170px;
+    }
+    .cinema_page .merits .block:nth-child(3) .fright .rL.hid {
+        margin-top: 90px;
+    }
+    .cinema_page .merits .block:nth-child(3):before {
+        bottom: 30px;
+        left: 50%;
+        margin-left: -157px;
+    }
+    .cinema_page .catalog .block span.db {
+        font-size: 16px;
+        text-align: center;
+    }
+    .cinema_page .catalog .block p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .cinema_page .catalog .block:nth-child(1) .item {
+        width: 290px;
+        height: 310px;
+    }
+    .cinema_page .catalog .block:nth-child(2) span.db {
+        font-size: 18px;
+    }
+    .cinema_page .catalog .block:nth-child(2) .item {
+        width: 290px;
+        height: 310px;
+    }
+    .cinema_page .catalog .block:nth-child(3) span.db {
+        font-size: 60px;
+        text-align: left;
+        line-height: 63px;
+    }
+    .cinema_page .catalog .block:nth-child(3) p {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    }
+    .cinema_page .catalog .block:nth-child(3) .item {
+        width: 290px;
+        height: 260px;
+        display: none;
+    }
+    .cinema_page .catalog .block:nth-child(3) .item.hide {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .cinema_page .catalog .block:nth-child(3) p {
+        margin-bottom: 35px;
+    }
+    .cinema_page .catalog .block:nth-child(4) .item {
+        width: 260px;
+        height: 275px;
+        display: none;
+        margin: 0 auto;
+    }
+    .cinema_page .catalog .block:nth-child(4) .item.hide {
+        display: block;
+    }
+    .cinema_page .catalog .block:nth-child(4) p {
+        margin-bottom: 36px;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: right;
+    }
+    .cinema_page .catalog .block:nth-child(4) span.db {
+        font-size: 60px;
+        line-height: 63px;
+        text-align: right;
+    }
+    .cinema_page .catalog .block:nth-child(5) span.db {
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 70px;
+    }
+    .cinema_page .catalog .block:nth-child(5) p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .cinema_page .catalog .block:nth-child(5) .item {
+        height: 400px;
+        width: 180px;
+    }
+    .cinema_page .palette span.db {
+        font-size: 60px;
+        line-height: 63px;
+        margin-top: 30px;
+    }
+    .cinema_page .palette .block {
+        padding: 0px;
+    }
+    .cinema_page .palette .inner {
+        width: 91%;
+    }
+    .cinema_page .palette .block p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .cinema_page .palette .block p:nth-child(2) {
+        width: 48%;
+    }
+    .cinema_page .palette span.rL {
+        font-size: 48px;
+        line-height: 51px;
+    }
+    .cinema_page .palette .TYPOGRAPHY_block .item {
+        width: 100%;
+    }
+    .cinema_page .palette .TYPOGRAPHY_block .item .text_block span.db {
+        margin-top: 0px;
+    }
+    .cinema_page .conclusion {
+        text-align: center;
+    }
+    .cinema_page .conclusion span.db:nth-child(1) {
+        font-size: 16px;
+        line-height: 22px;
+        display: inline;
+    }
+    .cinema_page .conclusion span.db:nth-child(2) {
+        font-size: 16px;
+        line-height: 22px;
+        display: inline;
+    }
+    .cinema_page .conclusion span.db:nth-child(3) {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .cinema_page .conclusion div.fon {
+        width: 279px;
+        height: 190px;
+        margin-bottom: 57px;
+    }
+    .cinema_page .conclusion {
+        padding-top: 125px;
+        padding-bottom: 35px;
+    }
+    .cinema_page .senck .fleft {
+        display: none;
+    }
+    .cinema_page .senck {
+        width: 100%
+    }
+    .cinema_page .senck .rL.hid p {
+        font-size: 16px;
+    }
+}
 
-	.Gms_page #header span.ah2 {font-size: 48px; line-height: 51px;padding-top: 223px;padding-bottom: 287px;}
-	.Gms_page .text_block span.db {font-size: 18px; line-height: 36px;}
-	.Gms_page .text_block {margin-top: 54px;margin-bottom: 65px;}
-	.Gms_page .text_block p {font-size: 16px; line-height: 18px;padding-left: 0px;}
-	.Gms_page .text_block span.db{margin-bottom: 25px;}
-	.Gms_page .video_block .vid{height: 164px;}
-	
-	.cinema_page #header span.ah2 {font-size: 55px; line-height: 59px;padding-top: 60px;padding-bottom: 440px;}
-	.cinema_page .tickets .fleft {margin-right: 39px;}
-	.cinema_page .tickets {padding-bottom: 370px;background-color: #DEB8DE;padding-top: 10px;}
-	.cinema_page .merits .block .fright {width: auto;}
-	.cinema_page .merits .block .fright .rL.hid {font-size: 16px;text-align: left;padding-right: 20px;margin-top: 65px;}
-	.cinema_page .merits .block .fright .right{position: absolute;right: 0px;}
-	.cinema_page .merits .block:nth-child(1):before {width: 280px; height: 54px;top: 230px;}
-	.cinema_page .merits .block:nth-child(1):after{width: 292px; height: 54px;margin-top: 267px;margin-left: 7px;}
-	.cinema_page .merits .block:nth-child(1) {padding-bottom: 250px;}
-	.cinema_page .merits .block:nth-child(2) .fright{width: auto;}
-	.cinema_page .merits .block:nth-child(2) .fright .rL.hid {margin-top: 97px;}
-	.cinema_page .merits .block:nth-child(2):before {width: 190px;height: 260px;margin-top: 215px;left: 50%;margin-left: -95px;}
-	.cinema_page .merits .block:nth-child(2){padding-bottom: 330px;}
-	.cinema_page .merits .block .fright {width: 100%;}
-	.cinema_page .merits .block:nth-child(3) {padding-bottom: 170px;}
-	.cinema_page .merits .block:nth-child(3) .fright .rL.hid {margin-top: 90px;}
-	.cinema_page .merits .block:nth-child(3):before {bottom: 30px;left: 50%;margin-left: -157px;}
-	.cinema_page .catalog .block span.db {font-size: 16px;text-align: center;}
-	.cinema_page .catalog .block p {font-size: 16px;text-align: center;}
-	.cinema_page .catalog .block:nth-child(1) .item {width: 290px;height: 310px;}
-	.cinema_page .catalog .block:nth-child(2) span.db {font-size: 18px;}
-	.cinema_page .catalog .block:nth-child(2) .item{width: 290px;height: 310px;}
-	.cinema_page .catalog .block:nth-child(3) span.db {font-size: 60px;text-align: left;line-height: 63px;}
-	.cinema_page .catalog .block:nth-child(3) p {font-size: 18px;line-height: 24px;text-align: left;}
-	.cinema_page .catalog .block:nth-child(3) .item {width: 290px;height: 260px; display: none;}
-	.cinema_page .catalog .block:nth-child(3) .item.hide {display: block;margin-bottom: 100px;}
-	.cinema_page .catalog .block:nth-child(3) p {margin-bottom: 35px;}
-	.cinema_page .catalog .block:nth-child(4) .item {width: 260px;height: 275px;display: none; margin: 0 auto;}
-	.cinema_page .catalog .block:nth-child(4) .item.hide {display: block;}
-	.cinema_page .catalog .block:nth-child(4) p{margin-bottom: 36px;font-size: 18px; line-height: 21px;text-align: right;}
-	.cinema_page .catalog .block:nth-child(4) span.db {font-size: 60px; line-height: 63px;text-align: right;}
-	.cinema_page .catalog .block:nth-child(5) span.db{font-size: 42px; line-height: 45px;margin-top: 70px;}
-	.cinema_page .catalog .block:nth-child(5) p {font-size: 18px; line-height: 21px;}
-	.cinema_page .catalog .block:nth-child(5) .item{height: 400px;width: 180px;}
-	.cinema_page .palette span.db{font-size: 60px; line-height: 63px;margin-top: 30px;}
-	.cinema_page .palette .block {padding: 0px;}
-	.cinema_page .palette .inner {width: 91%;}
-	.cinema_page .palette .block p {font-size: 12px;line-height: 15px;}
-	.cinema_page .palette .block p:nth-child(2) {width: 48%;}
-	.cinema_page .palette span.rL {font-size: 48px; line-height: 51px;}
-	.cinema_page .palette .TYPOGRAPHY_block .item {width: 100%;}
-	.cinema_page .palette .TYPOGRAPHY_block .item .text_block span.db {margin-top: 0px;}
-	.cinema_page .conclusion {text-align: center;}
-	.cinema_page .conclusion span.db:nth-child(1){font-size: 16px; line-height: 22px;display: inline;}
-	.cinema_page .conclusion span.db:nth-child(2){font-size: 16px; line-height: 22px;display: inline;}
-	.cinema_page .conclusion span.db:nth-child(3){font-size: 18px; line-height: 25px;}
-	.cinema_page .conclusion div.fon {width: 279px;height: 190px;margin-bottom: 57px;}
-	.cinema_page .conclusion{padding-top: 125px; padding-bottom: 35px;}
-	.cinema_page .senck .fleft {display: none;}
-	.cinema_page .senck {width: 100%}
-	.cinema_page .senck .rL.hid p {font-size: 16px;}
-}
-@media (max-width:440px){
-	.cinema_page .tickets {background-image: url(../../images/mycinema/tik_mobile.png);padding-bottom: 290px;background-size: 100% 100%;}
-	
+@media (max-width:440px) {
+    .cinema_page .tickets {
+        background-image: url(../../images/mycinema/tik_mobile.png);
+        padding-bottom: 290px;
+        background-size: 100% 100%;
+    }
 }
 
-@media (max-width:370px){
-.sitilinck_page #header {background-image: url(../../images/photos/case_citilink/mobile.jpg);}
+@media (max-width:370px) {
+    .sitilinck_page #header {
+        background-image: url(../../images/photos/case_citilink/mobile.jpg);
+    }
 }
-@media (max-width:320px){
-	.cinema_page .inner {width: 93%;}
-	.Gms_page #header {background-image: url(../../images/photos/case_gms/mainphoto_mobile_case_gms-min.png);}
-	.Dance_page .logo_block {background-image: url(../../images/dance/1.mobile.png);background-size: auto;}
+
+@media (max-width:320px) {
+    .cinema_page .inner {
+        width: 93%;
+    }
+    .Gms_page #header {
+        background-image: url(../../images/photos/case_gms/mainphoto_mobile_case_gms-min.png);
+    }
+    .Dance_page .logo_block {
+        background-image: url(../../images/dance/1.mobile.png);
+        background-size: auto;
+    }
 }
