@@ -9,10 +9,11 @@ class PortfolioController extends BaseController
 {
     public function index() {
         $projects = PortfolioProject::all();
-//        dump($project);
-//        foreach ($project as $p) {
-//            echo $p->title;
-//        }
         return view('portfolio', ['projects' => $projects]);
+    }
+
+    public function project($template) {
+        $project = PortfolioProject::where('template', $template)->first();
+        return view("portfolio.{$project->template}");
     }
 }

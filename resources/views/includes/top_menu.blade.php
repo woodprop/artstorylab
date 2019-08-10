@@ -2,7 +2,7 @@
     <div class="fleft rL logo">
         <div class="tb w100 h100 rL alCenter">
             <a href="/" class="tbc vM rL w100 button h100">
-                <img src="img/logo.png" alt="Логотип" class="inb vM rL">
+                <img src="{{ app('url')->asset('img/logo.png') }}" alt="Логотип" class="inb vM rL">
             </a>
         </div>
     </div>

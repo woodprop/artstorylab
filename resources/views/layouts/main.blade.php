@@ -6,16 +6,16 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="320">
     <title>ARTSTORYLAB | @yield('title')</title>
-    <link rel="stylesheet" href="css/fakeLoader.css">
-    <link rel="stylesheet" href="js/fancyBox/source/jquery.fancybox.css" media="screen"/>
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/styles2.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/adaptive2.css">
-    <link rel="stylesheet" href="css/adaptive.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="{{ app('url')->asset('css/fakeLoader.css') }}">
+    <link rel="stylesheet" href="{{ app('url')->asset('js/fancyBox/source/jquery.fancybox.css') }}" media="screen"/>
+    <link rel="stylesheet" href="{{ app('url')->asset('css/global.css') }}">
+    <link rel="stylesheet" href="{{ app('url')->asset('css/styles2.css') }}">
+    <link rel="stylesheet" href="{{ app('url')->asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ app('url')->asset('css/adaptive2.css') }}">
+    <link rel="stylesheet" href="{{ app('url')->asset('css/adaptive.css') }}">
+    <link rel="stylesheet" href="{{ app('url')->asset('css/fonts.css') }}">
+    <link rel="stylesheet" href="{{ app('url')->asset('css/font-awesome.css') }}">
+    <link rel="stylesheet" href="{{ app('url')->asset('css/jquery.fullPage.css') }}">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css'>
 </head>
 
@@ -26,8 +26,8 @@
 @yield('content')
 
 
-<script src="js/jquery-1.12.1.js"></script>
-<script src="js/fakeLoader.min.js"></script>
+<script src="{{ app('url')->asset('js/jquery-1.12.1.js') }}"></script>
+<script src="{{ app('url')->asset('js/fakeLoader.min.js') }}"></script>
 <script>
     $(document).ready(function(){
         $("#fakeloader").fakeLoader({
@@ -38,12 +38,12 @@
         });
     });
 </script>
-<script src="js/jquery.fullPage.js"></script>
-<script src="js/scrolloverflow.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/jquery.arcticmodal.js"></script>
-<script src="js/fancyBox/source/jquery.fancybox.js"></script>
-<script src="js/mask.js"></script>
-<script src="js/script.js"></script>
+<script src="{{ app('url')->asset('js/jquery.fullPage.js') }}"></script>
+<script src="{{ app('url')->asset('js/scrolloverflow.js') }}"></script>
+<script src="{{ app('url')->asset('js/owl.carousel.js') }}"></script>
+<script src="{{ app('url')->asset('js/jquery.arcticmodal.js') }}"></script>
+<script src="{{ app('url')->asset('js/fancyBox/source/jquery.fancybox.js') }}"></script>
+<script src="{{ app('url')->asset('js/mask.js') }}"></script>
+<script src="{{ app('url')->asset('js/script.js') }}"></script>
 </body>
 </html>

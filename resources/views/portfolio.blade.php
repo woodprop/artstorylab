@@ -9,7 +9,7 @@
         </header>
         <div class="portfolio rL">
             <div class="inner">
-                <h3>[[*longtitle]]</h3>
+                <h3>Собрание моих последних лучших проектов</h3>
                 <div class="row rL">
                     @foreach($projects as $project)
 
@@ -18,21 +18,21 @@
                                 <div class="image rL alCenter">
                                     <div class="tb w100 h100 rL alCenter">
                                         <div class="tbc vB rL w100 h100 image-animation">
-                                            <a href="" class="title"><img src="images/portfolio/{{ $project->image }}" alt=""
+                                            <a href="{{ url('portfolio/' . $project->template) }}" class="title"><img src="{{ app('url')->asset('images/portfolio/' . $project->image) }}" alt=""
                                                     class="inb vB rL"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <a href="#" class="title">{{ $project->title }}</a>
                                 <div class="des">
-                                    Редизайн сайта
+                                    {{ $project->description }}
                                 </div>
                             </div>
                         </div>
 
                     @endforeach
                 </div>
-                <div class="comment">[[*introtext]]</div>
+                <div class="comment">/...это только начало.../</div>
             </div>
         </div>
         <footer id="footer">
