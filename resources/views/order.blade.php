@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
-{{--ToDo убрать костыли--}}
+{{--ToDo убрать костыли, отправка письма--}}
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="minimum-scale=1.0, target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="320">
-    <title>[[++site_name]] - [[*pagetitle]]</title>
+    <title>ARTSTORYLAB | Заказать проект</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/fakeLoader.css">
     <link rel="stylesheet" type="text/css" href="js/fancyBox/source/jquery.fancybox.css" media="screen" />
@@ -30,7 +30,7 @@
             </div>
             <div class="back-but">
                 <input type="button" onclick="history.back();" value="Назад">
-                <a href="#" onclick="history.back();"><span>Завершить регистрацию проекта</span></a>
+                <a href="#" onclick="history.back();"><span>Закрыть</span></a>
             </div>
         </div>
         <div class="clear"></div>
@@ -122,9 +122,9 @@
                         </div>
                         <div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider"></div>
                         <div class="feti">
-                            <label id=minVal>-5 тыс</label>
+                            <label id=minVal>< 5 тыс</label>
                             <span>РУБ</span>
-                            <label id=maxVal>+100 тыс</label>
+                            <label id=maxVal>> 100 тыс</label>
                         </div>
                         <label id="notManey" for="next3">Я не знаю свой бюджет</label>
                     </fieldset>

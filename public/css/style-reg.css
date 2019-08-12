@@ -19,7 +19,7 @@
 
 .reg_project header .back-but {
     float: right;
-    width: 315px;
+    width: 100px;
 }
 
 .reg_project header .back-but input {
@@ -250,7 +250,7 @@ input[name="oth"]:checked + label {
     width: 50px;
     font: 18px 'MuseoSansCyrl', sans-serif;
     color: #666666;
-    margin: 0 -3px 10px 5px; 
+    margin: 0 -3px 10px 5px;
 }
 
 .reg_project .mainDiv .cont-form form .step3 .val span {
@@ -282,7 +282,7 @@ input[name="oth"]:checked + label {
 
 .reg_project option:checked {
     display: none;
-    
+
 }
 /* Ширина слайдера */
 #slider {
@@ -301,7 +301,7 @@ input[name="oth"]:checked + label {
 	height: 16px;  /* и высоту */
 	background: url(../../images/registration-project/range.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
 	cursor: pointer;
-    
+
 }
 .ui-slider .ui-slider-range {
 	position: absolute;
@@ -310,19 +310,19 @@ input[name="oth"]:checked + label {
 	display: block;
 	border: 0;
 	overflow: hidden;
-    
+
 }
 /* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
 .ui-slider-horizontal {
 	 height: 44px; /* задаем высоту согласно дизайна */
 }
 /* позиционируем ползунки */
-.ui-slider-horizontal .ui-slider-handle:nth-child(2) { 
+.ui-slider-horizontal .ui-slider-handle:nth-child(2) {
 	top: 14px;
 	margin-left: 6px;
 }
 
-.ui-slider-horizontal .ui-slider-handle:nth-child(3) { 
+.ui-slider-horizontal .ui-slider-handle:nth-child(3) {
 	top: 14px;
 	margin-left: -22px;
 }
@@ -330,14 +330,14 @@ input[name="oth"]:checked + label {
 	top: 7px;
 	height: 30px;
 }
-.ui-slider-horizontal .ui-slider-range-min { 
+.ui-slider-horizontal .ui-slider-range-min {
 	left: 0;
 }
 .ui-slider-horizontal .ui-slider-range-max {
 	right: 0;
 }
 /* оформление полосы по которой ходит ползунок */
-.ui-widget-content { 
+.ui-widget-content {
 	background: #eae8e8;
     border: 0.1px solid #666666
 }
@@ -347,7 +347,7 @@ input[name="oth"]:checked + label {
     margin: 0;
     position: absolute;
     top: -57px;
-    
+
 }
 
 #minVal {
@@ -359,12 +359,12 @@ input[name="oth"]:checked + label {
     width: 90px;
 }
 /* оформление активного участка (между двумя ползунками) */
-.ui-widget-header { 
+.ui-widget-header {
 	background: #2952cc;
 }
 /* скругление для полосы слайдера */
 .ui-corner-all {
-    
+
 }
 
 .reg_project .mainDiv .cont-form form .step3 label {
@@ -392,7 +392,7 @@ input[name="oth"]:checked + label {
 }
 
 #rule {
-    display: none;  
+    display: none;
 }
 
 .reg_project .mainDiv .cont-form form .step4 label {
@@ -475,7 +475,7 @@ input[name="oth"]:checked + label {
 
 .reg_project .mainDiv  article .nextBut {
     float: left;
-    width: 19.1%;    
+    width: 19.1%;
 }
 
 .reg_project .mainDiv  article .nextBut label {
@@ -504,7 +504,7 @@ input[name="oth"]:checked + label {
 
 .reg_project .mainDiv  article .lastBut label:hover {
     background: url('../../images/registration-project/back-but-hov.png') no-repeat left;
-    
+
 }
 
 /*Перереход от шага к шагу*/
@@ -581,11 +581,11 @@ input[name="oth"]:checked + label {
     #slider {
         width: 65%;
     }
-    
+
     #minVal {
         left: 5%;
     }
-    
+
     #maxVal {
         left: 84%
     }
@@ -597,22 +597,22 @@ input[name="oth"]:checked + label {
     header {
         text-align: center;
     }
-    
+
     header .logo-reg {
         width: 100%;
         display: inline;
     }
-    
+
     header .logo-reg a {
         display: inline;
     }
-    
+
     .reg_project header .back-but {
         width: 20px;
         position: relative;
         top: -20px;
     }
-    
+
     .reg_project header .back-but a {
         height: 20px;
         width: 20px;
@@ -630,7 +630,7 @@ input[name="oth"]:checked + label {
         float: left;
         width: 18.5%;
     }
-    
+
     .reg_project .mainDiv article .lastBut label {
         width: 1.5%;
     }
@@ -642,11 +642,11 @@ input[name="oth"]:checked + label {
     .reg_project fieldset legend {
         font-size: 30px;
     }
-    
+
     .reg_project fieldset p {
         font-size: 14px;
     }
-    
+
     .reg_project .mainDiv .cont-form .navigation {
         top: 65px;
     }
@@ -667,44 +667,44 @@ input[name="oth"]:checked + label {
     .reg_project fieldset .wrong3 {
         float: none;
     }
-    
+
     .reg_project .mainDiv .cont-form form .step1 label {
         margin: 10px 0 40px
     }
-    
+
     .reg_project .mainDiv  article {
         top: 520px;
     }
-    
+
     .reg_project .mainDiv .cont-form {
         height: 600px;
     }
-    
+
     .reg_project fieldset .options {
         margin-bottom: 100px;
         flex-wrap: wrap;
     }
-    
+
     .reg_project fieldset .options label {
         min-width: 110px;
         width: 44.4%;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
-    
+
     .reg_project .next-step2 {
         margin-top: 160px;
     }
     .reg_project .last-step2 {
         margin-top: 160px;
     }
-    
+
     #slider,
     #minVal,
     #maxVal {
         display: none;
     }
-    
-    
+
+
     .reg_project .mainDiv .cont-form form .step3 .val {
         justify-content: space-around;
         position: relative;
@@ -719,7 +719,7 @@ input[name="oth"]:checked + label {
         top: 75px;
         font-size: 24px;
     }
-    
+
     .reg_project .mainDiv .cont-form form .step3 input:focus {
         color: #3366cc;
         border-color: #3366cc;
@@ -728,21 +728,21 @@ input[name="oth"]:checked + label {
     .reg_project .mainDiv .cont-form form .step3 .val span {
         position: absolute;
     }
-    
+
     #def {
         top: 90px;
         margin: 0;
     }
-    
+
     #rub1,
     #rub2 {
         top: 130px;
     }
-    
+
     #rub1 {
         left: 20%;
     }
-    
+
     #rub2 {
         left: 70%;
     }
@@ -750,13 +750,13 @@ input[name="oth"]:checked + label {
     .reg_project .mainDiv .cont-form form .step3 .feti {
         margin-top: -30px;
     }
-    
+
     #notManey {
         display: none;
     }
-    
-    
-    
+
+
+
     .reg_project .mainDiv .cont-form form .step4 input {
         min-width: 290px;
     }
@@ -767,39 +767,39 @@ input[name="oth"]:checked + label {
     #container {
         width: 100%;
     }
-    
+
     .reg_project .header-cont {
         padding: 0 2%;
     }
-    
+
     .reg_project .header-cont .logo-reg {
         text-align: left;
     }
-    
+
     .reg_project .mainDiv .cont-form {
         width: 96%;
         padding: 0 2%;
     }
-    
+
     .reg_project .mainDiv .cont-form form .step1 label {
         width: 100%;
     }
-    
+
     .reg_project .mainDiv .cont-form form .step3 .val {
         width: 100%
     }
     #rub1 {
         left: 22%;
     }
-    
+
     #rub2 {
         left: 72%;
     }
-    
+
     .reg_project .mainDiv .cont-form form .step4 input {
         width: 100%;
     }
-    
+
     #next1:checked ~ article {
         margin-left: -145%;
     }
@@ -815,7 +815,7 @@ input[name="oth"]:checked + label {
     #next4:checked ~ article {
         margin-left: -745%;
     }
-    
+
     .reg_project footer {
         display: none;
     }
