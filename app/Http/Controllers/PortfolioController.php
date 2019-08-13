@@ -18,10 +18,4 @@ class PortfolioController extends BaseController
         return view("portfolio.{$project->template}");
     }
 
-    public function mail() {
-        Mail::raw('Hi, welcome user!', function ($message) {
-            $message->to('woodprop@yandex.ru')
-        ->subject('ARTSTORYLAB | Новый заказ');
-        });
-    }
 }
