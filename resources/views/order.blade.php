@@ -360,7 +360,7 @@
 
                 // отправляем данные
                 $.ajax({
-                    url: "../template/php/action.php", // куда отправляем
+                    url: "{{ app('url')->asset('service/send_mail.php') }}", // куда отправляем
                     type: "post", // метод передачи
                     dataType: "json", // тип передачи данных
                     data: { // что отправляем

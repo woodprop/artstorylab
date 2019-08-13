@@ -25,6 +25,15 @@
 
 @yield('content')
 
+{{--------------VK API-----------------}}
+{{--<div id="vk_community_messages"></div>--}}{{--  TODO uncomment on prod--}}
+<script src="https://vk.com/js/api/openapi.js?159"></script>
+<script src="https://vk.com/js/api/openapi.js?159"></script>
+<script src="https://vk.com/js/api/openapi.js?159"></script>
+<script >
+    VK.Widgets.CommunityMessages("vk_community_messages", 167957987, {tooltipButtonText: "Задайте Ваши вопросы"});
+</script>
+{{--------------VK API-----------------}}
 
 <script src="{{ app('url')->asset('js/jquery-1.12.1.js') }}"></script>
 <script src="{{ app('url')->asset('js/fakeLoader.min.js') }}"></script>
@@ -45,5 +54,6 @@
 <script src="{{ app('url')->asset('js/fancyBox/source/jquery.fancybox.js') }}"></script>
 <script src="{{ app('url')->asset('js/mask.js') }}"></script>
 <script src="{{ app('url')->asset('js/script.js') }}"></script>
+
 </body>
 </html>

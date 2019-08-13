@@ -29,3 +29,7 @@ $router->get('about', ['as' => 'about', function () use ($router) {
 $router->get('pd', ['as' => 'pd', function () use ($router) {
     return view('personal_data');
 }]);
+
+$router->get('testmail', [
+    'as' => 'testmail', 'uses' => 'PortfolioController@mail'
+]);
