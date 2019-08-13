@@ -1,4 +1,4 @@
-<form class="inner" action="{{ url('order/place') }}" method="post" id="form1" name="mail-form">
+<form class="inner" action="" method="post" id="form1" name="mail-form">
     <!--<span id="connect"></span>-->
     <!--<button class="rL is-animated__single" name="mail-submit"></button>-->
     <span class="rL is-animated__single"><a class="regP" href="/registration-project">Заказать проект</a></span>
