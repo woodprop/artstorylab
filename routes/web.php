@@ -30,6 +30,6 @@ $router->get('pd', ['as' => 'pd', function () use ($router) {
     return view('personal_data');
 }]);
 
-$router->post('testmail', [
-    'as' => 'testmail', 'uses' => 'OrderController@sendEmail',
+$router->post('order/place', [
+    'uses' => 'OrderController@sendEmail',
 ]);

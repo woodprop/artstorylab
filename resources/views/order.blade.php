@@ -360,20 +360,17 @@
 
                 // отправляем данные
                 $.ajax({
-                    url: "{{ url('testmail') }}", // куда отправляем
+                    url: "{{ url('order/place') }}", // куда отправляем
                     type: "post", // метод передачи
                     dataType: "json", // тип передачи данных
                     data: { // что отправляем
                         "user_name": user_name,
                         "user_email": user_email,
                         "user_tel": user_tel,
-                        "user_int1": user_int1,
-                        "user_int2": user_int2,
-                        "user_int3": user_int3,
-                        "user_int4": user_int4,
-                        "user_maney_min": user_maney_min,
-                        "user_maney_max": user_maney_max,
-                        "user_data": user_data,
+                        "user_interests": user_int1 + user_int2 + user_int3 + user_int4,
+                        "user_money_min": user_maney_min,
+                        "user_money_max": user_maney_max,
+                        "user_date": user_data,
                         "user_about": user_about
                     },
                     // после получения ответа сервера

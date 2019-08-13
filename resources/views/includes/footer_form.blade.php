@@ -1,4 +1,4 @@
-<form class="inner" action="template/php/form1.php" method="post" id="form1" name="mail-form">
+<form class="inner" action="{{ url('order/place') }}" method="post" id="form1" name="mail-form">
     <!--<span id="connect"></span>-->
     <!--<button class="rL is-animated__single" name="mail-submit"></button>-->
     <span class="rL is-animated__single"><a class="regP" href="/registration-project">Заказать проект</a></span>
@@ -15,6 +15,7 @@
             </div>
 
             <div class="input_block rL fleft">
+                <input type="hidden" name="short_form" value="1">
                 <input autocomplete="off" type="email" name="email" class="rL hid box w100 inputbox" placeholder="Ваш e-mail" required="">
             </div>
             <label class="db rL hid box">
@@ -38,7 +39,7 @@
     </div>
     <div class="social__menu is-animated">
         <div class="fleft menu rL">
-            [[pdoMenu? &parents=`0` &level=`1` &resources=`-1` ]]
+            @include('includes.menu_items')
         </div>
         <div class="fright social rL">
             <div class="db h100 rL">
